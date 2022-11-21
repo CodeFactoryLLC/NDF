@@ -1,0 +1,333 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/github/codefactoryllc/NDF/gendocs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.NDF.AuthenticationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.NDF.AuthenticationException.html",
+          "hash": "UhgBfxGemdkJK0TOTdXY9yxRan3m56fxTsmbuz6Mr5c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.NDF.AuthorizationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.NDF.AuthorizationException.html",
+          "hash": "2b/4Po7hZJkKi/i7UieWgq05TN+S2lUoAvUlQb825Pk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.NDF.CommunicationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.NDF.CommunicationException.html",
+          "hash": "Aec3DsvHe5LF75jsCgZIXpyel3rnrqI6UyXbo1ZlvDc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.NDF.ConfigurationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.NDF.ConfigurationException.html",
+          "hash": "Qx+pwvyuqEigv1RYCA8xIa4kmDtURBVSt+DmDJkOq/M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.NDF.DataException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.NDF.DataException.html",
+          "hash": "XCkJViwcODv1ncFcoTgk71/M2c0czi1X1KgTVqdf0ZM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.NDF.DataValidationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.NDF.DataValidationException.html",
+          "hash": "8OeBdVGOu+qFcEV4QJ+dq8rmwSHofeRLYoJkiTkYbPU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.NDF.DependencyInjectionLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.NDF.DependencyInjectionLoader.html",
+          "hash": "NOk2peqZ62nLXYA5sTgXdil7S9dr4njqSrPXRPg4fc4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.NDF.DuplicateException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.NDF.DuplicateException.html",
+          "hash": "J2Uhq+Wxp0/DQ8/ikdH6bDaouWdHAkrJ8mvJx1w5v9M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.NDF.LogEventProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.NDF.LogEventProperties.html",
+          "hash": "sIdeFPfMS+pM/E0fw6Iu+hPWlCgQVUzyvc3aRYiQ78c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.NDF.LoggingExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.NDF.LoggingExtensions.html",
+          "hash": "iCekhnZ/Lx+vzkxgZd4QQb6ql6OxIm9RGobyPSj4saQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.NDF.LogicException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.NDF.LogicException.html",
+          "hash": "k1To2nGt0nO0s/Mt9jER7DOlZDZMISrsqAUv9DlUcoc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.NDF.ManagedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.NDF.ManagedException.html",
+          "hash": "adihskTlCBwzSIjZGuMZTDnlA6TNDy3kdCQnxbmL1OI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.NDF.ManagedExceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.NDF.ManagedExceptions.html",
+          "hash": "Kxav/ipcC3qwHqFxmc3sJ4f7V89Coy1MZp6Iuy2OGAo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.NDF.SecurityException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.NDF.SecurityException.html",
+          "hash": "FhQ6uadqT61yz4sihPH5V+99hqPDYVOtgKBZy+gQPBU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.NDF.StandardExceptionMessages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.NDF.StandardExceptionMessages.html",
+          "hash": "8z65N0B/jf8ja+Ta2miey/c4UqUMhK0C+ICIZgWspPs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeFactory.NDF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeFactory.NDF.html",
+          "hash": "wxf+hAGEca9Zbb5Nw5H38ESlvBcx63q7eFO/61rQnT4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "MP7el7SZlYAPMIuWUeu++j/pwywdREWZaKHVLvtlRqA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "PlJhghKOmU6crnUp9hoflZNjywopwFGKO4V0F+isCGU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guidance/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "guidance/intro.html",
+          "hash": "UjB4mARW3W/dXldXvnIep+j7Ndrr4iu/2qDB6Vmk/n4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/NDF128.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/NDF128.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "Es6jGgvQtdkzmdZDsqlOj69d6H3EQUwmQUx6bYVseEE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "LddkbkApag2txPmYiJrBaj+HRIsque06JOUr1Srjr3U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 16,
+          "skipped_file_count": 16
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

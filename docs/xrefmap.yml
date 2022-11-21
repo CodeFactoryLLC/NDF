@@ -1,0 +1,1288 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: CodeFactory.NDF
+  name: CodeFactory.NDF
+  href: api/CodeFactory.NDF.html
+  commentId: N:CodeFactory.NDF
+  fullName: CodeFactory.NDF
+  nameWithType: CodeFactory.NDF
+- uid: CodeFactory.NDF.AuthenticationException
+  name: AuthenticationException
+  href: api/CodeFactory.NDF.AuthenticationException.html
+  commentId: T:CodeFactory.NDF.AuthenticationException
+  fullName: CodeFactory.NDF.AuthenticationException
+  nameWithType: AuthenticationException
+- uid: CodeFactory.NDF.AuthenticationException.#ctor
+  name: AuthenticationException()
+  href: api/CodeFactory.NDF.AuthenticationException.html#CodeFactory_NDF_AuthenticationException__ctor
+  commentId: M:CodeFactory.NDF.AuthenticationException.#ctor
+  fullName: CodeFactory.NDF.AuthenticationException.AuthenticationException()
+  nameWithType: AuthenticationException.AuthenticationException()
+- uid: CodeFactory.NDF.AuthenticationException.#ctor(System.Exception)
+  name: AuthenticationException(Exception)
+  href: api/CodeFactory.NDF.AuthenticationException.html#CodeFactory_NDF_AuthenticationException__ctor_System_Exception_
+  commentId: M:CodeFactory.NDF.AuthenticationException.#ctor(System.Exception)
+  fullName: CodeFactory.NDF.AuthenticationException.AuthenticationException(System.Exception)
+  nameWithType: AuthenticationException.AuthenticationException(Exception)
+- uid: CodeFactory.NDF.AuthenticationException.#ctor(System.String)
+  name: AuthenticationException(String)
+  href: api/CodeFactory.NDF.AuthenticationException.html#CodeFactory_NDF_AuthenticationException__ctor_System_String_
+  commentId: M:CodeFactory.NDF.AuthenticationException.#ctor(System.String)
+  fullName: CodeFactory.NDF.AuthenticationException.AuthenticationException(System.String)
+  nameWithType: AuthenticationException.AuthenticationException(String)
+- uid: CodeFactory.NDF.AuthenticationException.#ctor(System.String,System.Exception)
+  name: AuthenticationException(String, Exception)
+  href: api/CodeFactory.NDF.AuthenticationException.html#CodeFactory_NDF_AuthenticationException__ctor_System_String_System_Exception_
+  commentId: M:CodeFactory.NDF.AuthenticationException.#ctor(System.String,System.Exception)
+  fullName: CodeFactory.NDF.AuthenticationException.AuthenticationException(System.String, System.Exception)
+  nameWithType: AuthenticationException.AuthenticationException(String, Exception)
+- uid: CodeFactory.NDF.AuthenticationException.#ctor*
+  name: AuthenticationException
+  href: api/CodeFactory.NDF.AuthenticationException.html#CodeFactory_NDF_AuthenticationException__ctor_
+  commentId: Overload:CodeFactory.NDF.AuthenticationException.#ctor
+  isSpec: "True"
+  fullName: CodeFactory.NDF.AuthenticationException.AuthenticationException
+  nameWithType: AuthenticationException.AuthenticationException
+- uid: CodeFactory.NDF.AuthorizationException
+  name: AuthorizationException
+  href: api/CodeFactory.NDF.AuthorizationException.html
+  commentId: T:CodeFactory.NDF.AuthorizationException
+  fullName: CodeFactory.NDF.AuthorizationException
+  nameWithType: AuthorizationException
+- uid: CodeFactory.NDF.AuthorizationException.#ctor
+  name: AuthorizationException()
+  href: api/CodeFactory.NDF.AuthorizationException.html#CodeFactory_NDF_AuthorizationException__ctor
+  commentId: M:CodeFactory.NDF.AuthorizationException.#ctor
+  fullName: CodeFactory.NDF.AuthorizationException.AuthorizationException()
+  nameWithType: AuthorizationException.AuthorizationException()
+- uid: CodeFactory.NDF.AuthorizationException.#ctor(System.Exception)
+  name: AuthorizationException(Exception)
+  href: api/CodeFactory.NDF.AuthorizationException.html#CodeFactory_NDF_AuthorizationException__ctor_System_Exception_
+  commentId: M:CodeFactory.NDF.AuthorizationException.#ctor(System.Exception)
+  fullName: CodeFactory.NDF.AuthorizationException.AuthorizationException(System.Exception)
+  nameWithType: AuthorizationException.AuthorizationException(Exception)
+- uid: CodeFactory.NDF.AuthorizationException.#ctor(System.String)
+  name: AuthorizationException(String)
+  href: api/CodeFactory.NDF.AuthorizationException.html#CodeFactory_NDF_AuthorizationException__ctor_System_String_
+  commentId: M:CodeFactory.NDF.AuthorizationException.#ctor(System.String)
+  fullName: CodeFactory.NDF.AuthorizationException.AuthorizationException(System.String)
+  nameWithType: AuthorizationException.AuthorizationException(String)
+- uid: CodeFactory.NDF.AuthorizationException.#ctor(System.String,System.Exception)
+  name: AuthorizationException(String, Exception)
+  href: api/CodeFactory.NDF.AuthorizationException.html#CodeFactory_NDF_AuthorizationException__ctor_System_String_System_Exception_
+  commentId: M:CodeFactory.NDF.AuthorizationException.#ctor(System.String,System.Exception)
+  fullName: CodeFactory.NDF.AuthorizationException.AuthorizationException(System.String, System.Exception)
+  nameWithType: AuthorizationException.AuthorizationException(String, Exception)
+- uid: CodeFactory.NDF.AuthorizationException.#ctor*
+  name: AuthorizationException
+  href: api/CodeFactory.NDF.AuthorizationException.html#CodeFactory_NDF_AuthorizationException__ctor_
+  commentId: Overload:CodeFactory.NDF.AuthorizationException.#ctor
+  isSpec: "True"
+  fullName: CodeFactory.NDF.AuthorizationException.AuthorizationException
+  nameWithType: AuthorizationException.AuthorizationException
+- uid: CodeFactory.NDF.CommunicationException
+  name: CommunicationException
+  href: api/CodeFactory.NDF.CommunicationException.html
+  commentId: T:CodeFactory.NDF.CommunicationException
+  fullName: CodeFactory.NDF.CommunicationException
+  nameWithType: CommunicationException
+- uid: CodeFactory.NDF.CommunicationException.#ctor
+  name: CommunicationException()
+  href: api/CodeFactory.NDF.CommunicationException.html#CodeFactory_NDF_CommunicationException__ctor
+  commentId: M:CodeFactory.NDF.CommunicationException.#ctor
+  fullName: CodeFactory.NDF.CommunicationException.CommunicationException()
+  nameWithType: CommunicationException.CommunicationException()
+- uid: CodeFactory.NDF.CommunicationException.#ctor(System.Exception)
+  name: CommunicationException(Exception)
+  href: api/CodeFactory.NDF.CommunicationException.html#CodeFactory_NDF_CommunicationException__ctor_System_Exception_
+  commentId: M:CodeFactory.NDF.CommunicationException.#ctor(System.Exception)
+  fullName: CodeFactory.NDF.CommunicationException.CommunicationException(System.Exception)
+  nameWithType: CommunicationException.CommunicationException(Exception)
+- uid: CodeFactory.NDF.CommunicationException.#ctor(System.String)
+  name: CommunicationException(String)
+  href: api/CodeFactory.NDF.CommunicationException.html#CodeFactory_NDF_CommunicationException__ctor_System_String_
+  commentId: M:CodeFactory.NDF.CommunicationException.#ctor(System.String)
+  fullName: CodeFactory.NDF.CommunicationException.CommunicationException(System.String)
+  nameWithType: CommunicationException.CommunicationException(String)
+- uid: CodeFactory.NDF.CommunicationException.#ctor(System.String,System.Exception)
+  name: CommunicationException(String, Exception)
+  href: api/CodeFactory.NDF.CommunicationException.html#CodeFactory_NDF_CommunicationException__ctor_System_String_System_Exception_
+  commentId: M:CodeFactory.NDF.CommunicationException.#ctor(System.String,System.Exception)
+  fullName: CodeFactory.NDF.CommunicationException.CommunicationException(System.String, System.Exception)
+  nameWithType: CommunicationException.CommunicationException(String, Exception)
+- uid: CodeFactory.NDF.CommunicationException.#ctor*
+  name: CommunicationException
+  href: api/CodeFactory.NDF.CommunicationException.html#CodeFactory_NDF_CommunicationException__ctor_
+  commentId: Overload:CodeFactory.NDF.CommunicationException.#ctor
+  isSpec: "True"
+  fullName: CodeFactory.NDF.CommunicationException.CommunicationException
+  nameWithType: CommunicationException.CommunicationException
+- uid: CodeFactory.NDF.ConfigurationException
+  name: ConfigurationException
+  href: api/CodeFactory.NDF.ConfigurationException.html
+  commentId: T:CodeFactory.NDF.ConfigurationException
+  fullName: CodeFactory.NDF.ConfigurationException
+  nameWithType: ConfigurationException
+- uid: CodeFactory.NDF.ConfigurationException.#ctor
+  name: ConfigurationException()
+  href: api/CodeFactory.NDF.ConfigurationException.html#CodeFactory_NDF_ConfigurationException__ctor
+  commentId: M:CodeFactory.NDF.ConfigurationException.#ctor
+  fullName: CodeFactory.NDF.ConfigurationException.ConfigurationException()
+  nameWithType: ConfigurationException.ConfigurationException()
+- uid: CodeFactory.NDF.ConfigurationException.#ctor(System.Exception)
+  name: ConfigurationException(Exception)
+  href: api/CodeFactory.NDF.ConfigurationException.html#CodeFactory_NDF_ConfigurationException__ctor_System_Exception_
+  commentId: M:CodeFactory.NDF.ConfigurationException.#ctor(System.Exception)
+  fullName: CodeFactory.NDF.ConfigurationException.ConfigurationException(System.Exception)
+  nameWithType: ConfigurationException.ConfigurationException(Exception)
+- uid: CodeFactory.NDF.ConfigurationException.#ctor(System.String)
+  name: ConfigurationException(String)
+  href: api/CodeFactory.NDF.ConfigurationException.html#CodeFactory_NDF_ConfigurationException__ctor_System_String_
+  commentId: M:CodeFactory.NDF.ConfigurationException.#ctor(System.String)
+  fullName: CodeFactory.NDF.ConfigurationException.ConfigurationException(System.String)
+  nameWithType: ConfigurationException.ConfigurationException(String)
+- uid: CodeFactory.NDF.ConfigurationException.#ctor(System.String,System.Exception)
+  name: ConfigurationException(String, Exception)
+  href: api/CodeFactory.NDF.ConfigurationException.html#CodeFactory_NDF_ConfigurationException__ctor_System_String_System_Exception_
+  commentId: M:CodeFactory.NDF.ConfigurationException.#ctor(System.String,System.Exception)
+  fullName: CodeFactory.NDF.ConfigurationException.ConfigurationException(System.String, System.Exception)
+  nameWithType: ConfigurationException.ConfigurationException(String, Exception)
+- uid: CodeFactory.NDF.ConfigurationException.#ctor*
+  name: ConfigurationException
+  href: api/CodeFactory.NDF.ConfigurationException.html#CodeFactory_NDF_ConfigurationException__ctor_
+  commentId: Overload:CodeFactory.NDF.ConfigurationException.#ctor
+  isSpec: "True"
+  fullName: CodeFactory.NDF.ConfigurationException.ConfigurationException
+  nameWithType: ConfigurationException.ConfigurationException
+- uid: CodeFactory.NDF.DataException
+  name: DataException
+  href: api/CodeFactory.NDF.DataException.html
+  commentId: T:CodeFactory.NDF.DataException
+  fullName: CodeFactory.NDF.DataException
+  nameWithType: DataException
+- uid: CodeFactory.NDF.DataException.#ctor
+  name: DataException()
+  href: api/CodeFactory.NDF.DataException.html#CodeFactory_NDF_DataException__ctor
+  commentId: M:CodeFactory.NDF.DataException.#ctor
+  fullName: CodeFactory.NDF.DataException.DataException()
+  nameWithType: DataException.DataException()
+- uid: CodeFactory.NDF.DataException.#ctor(System.Exception)
+  name: DataException(Exception)
+  href: api/CodeFactory.NDF.DataException.html#CodeFactory_NDF_DataException__ctor_System_Exception_
+  commentId: M:CodeFactory.NDF.DataException.#ctor(System.Exception)
+  fullName: CodeFactory.NDF.DataException.DataException(System.Exception)
+  nameWithType: DataException.DataException(Exception)
+- uid: CodeFactory.NDF.DataException.#ctor(System.String)
+  name: DataException(String)
+  href: api/CodeFactory.NDF.DataException.html#CodeFactory_NDF_DataException__ctor_System_String_
+  commentId: M:CodeFactory.NDF.DataException.#ctor(System.String)
+  fullName: CodeFactory.NDF.DataException.DataException(System.String)
+  nameWithType: DataException.DataException(String)
+- uid: CodeFactory.NDF.DataException.#ctor(System.String,System.Exception)
+  name: DataException(String, Exception)
+  href: api/CodeFactory.NDF.DataException.html#CodeFactory_NDF_DataException__ctor_System_String_System_Exception_
+  commentId: M:CodeFactory.NDF.DataException.#ctor(System.String,System.Exception)
+  fullName: CodeFactory.NDF.DataException.DataException(System.String, System.Exception)
+  nameWithType: DataException.DataException(String, Exception)
+- uid: CodeFactory.NDF.DataException.#ctor*
+  name: DataException
+  href: api/CodeFactory.NDF.DataException.html#CodeFactory_NDF_DataException__ctor_
+  commentId: Overload:CodeFactory.NDF.DataException.#ctor
+  isSpec: "True"
+  fullName: CodeFactory.NDF.DataException.DataException
+  nameWithType: DataException.DataException
+- uid: CodeFactory.NDF.DataValidationException
+  name: DataValidationException
+  href: api/CodeFactory.NDF.DataValidationException.html
+  commentId: T:CodeFactory.NDF.DataValidationException
+  fullName: CodeFactory.NDF.DataValidationException
+  nameWithType: DataValidationException
+- uid: CodeFactory.NDF.DataValidationException.#ctor(System.String)
+  name: DataValidationException(String)
+  href: api/CodeFactory.NDF.DataValidationException.html#CodeFactory_NDF_DataValidationException__ctor_System_String_
+  commentId: M:CodeFactory.NDF.DataValidationException.#ctor(System.String)
+  fullName: CodeFactory.NDF.DataValidationException.DataValidationException(System.String)
+  nameWithType: DataValidationException.DataValidationException(String)
+- uid: CodeFactory.NDF.DataValidationException.#ctor(System.String,System.Exception)
+  name: DataValidationException(String, Exception)
+  href: api/CodeFactory.NDF.DataValidationException.html#CodeFactory_NDF_DataValidationException__ctor_System_String_System_Exception_
+  commentId: M:CodeFactory.NDF.DataValidationException.#ctor(System.String,System.Exception)
+  fullName: CodeFactory.NDF.DataValidationException.DataValidationException(System.String, System.Exception)
+  nameWithType: DataValidationException.DataValidationException(String, Exception)
+- uid: CodeFactory.NDF.DataValidationException.#ctor(System.String,System.String)
+  name: DataValidationException(String, String)
+  href: api/CodeFactory.NDF.DataValidationException.html#CodeFactory_NDF_DataValidationException__ctor_System_String_System_String_
+  commentId: M:CodeFactory.NDF.DataValidationException.#ctor(System.String,System.String)
+  fullName: CodeFactory.NDF.DataValidationException.DataValidationException(System.String, System.String)
+  nameWithType: DataValidationException.DataValidationException(String, String)
+- uid: CodeFactory.NDF.DataValidationException.#ctor(System.String,System.String,System.Exception)
+  name: DataValidationException(String, String, Exception)
+  href: api/CodeFactory.NDF.DataValidationException.html#CodeFactory_NDF_DataValidationException__ctor_System_String_System_String_System_Exception_
+  commentId: M:CodeFactory.NDF.DataValidationException.#ctor(System.String,System.String,System.Exception)
+  fullName: CodeFactory.NDF.DataValidationException.DataValidationException(System.String, System.String, System.Exception)
+  nameWithType: DataValidationException.DataValidationException(String, String, Exception)
+- uid: CodeFactory.NDF.DataValidationException.#ctor*
+  name: DataValidationException
+  href: api/CodeFactory.NDF.DataValidationException.html#CodeFactory_NDF_DataValidationException__ctor_
+  commentId: Overload:CodeFactory.NDF.DataValidationException.#ctor
+  isSpec: "True"
+  fullName: CodeFactory.NDF.DataValidationException.DataValidationException
+  nameWithType: DataValidationException.DataValidationException
+- uid: CodeFactory.NDF.DataValidationException.PropertyName
+  name: PropertyName
+  href: api/CodeFactory.NDF.DataValidationException.html#CodeFactory_NDF_DataValidationException_PropertyName
+  commentId: P:CodeFactory.NDF.DataValidationException.PropertyName
+  fullName: CodeFactory.NDF.DataValidationException.PropertyName
+  nameWithType: DataValidationException.PropertyName
+- uid: CodeFactory.NDF.DataValidationException.PropertyName*
+  name: PropertyName
+  href: api/CodeFactory.NDF.DataValidationException.html#CodeFactory_NDF_DataValidationException_PropertyName_
+  commentId: Overload:CodeFactory.NDF.DataValidationException.PropertyName
+  isSpec: "True"
+  fullName: CodeFactory.NDF.DataValidationException.PropertyName
+  nameWithType: DataValidationException.PropertyName
+- uid: CodeFactory.NDF.DependencyInjectionLoader
+  name: DependencyInjectionLoader
+  href: api/CodeFactory.NDF.DependencyInjectionLoader.html
+  commentId: T:CodeFactory.NDF.DependencyInjectionLoader
+  fullName: CodeFactory.NDF.DependencyInjectionLoader
+  nameWithType: DependencyInjectionLoader
+- uid: CodeFactory.NDF.DependencyInjectionLoader.Load(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  name: Load(IServiceCollection, IConfiguration)
+  href: api/CodeFactory.NDF.DependencyInjectionLoader.html#CodeFactory_NDF_DependencyInjectionLoader_Load_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:CodeFactory.NDF.DependencyInjectionLoader.Load(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  fullName: CodeFactory.NDF.DependencyInjectionLoader.Load(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: DependencyInjectionLoader.Load(IServiceCollection, IConfiguration)
+- uid: CodeFactory.NDF.DependencyInjectionLoader.Load*
+  name: Load
+  href: api/CodeFactory.NDF.DependencyInjectionLoader.html#CodeFactory_NDF_DependencyInjectionLoader_Load_
+  commentId: Overload:CodeFactory.NDF.DependencyInjectionLoader.Load
+  isSpec: "True"
+  fullName: CodeFactory.NDF.DependencyInjectionLoader.Load
+  nameWithType: DependencyInjectionLoader.Load
+- uid: CodeFactory.NDF.DependencyInjectionLoader.LoadLibraries(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  name: LoadLibraries(IServiceCollection, IConfiguration)
+  href: api/CodeFactory.NDF.DependencyInjectionLoader.html#CodeFactory_NDF_DependencyInjectionLoader_LoadLibraries_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:CodeFactory.NDF.DependencyInjectionLoader.LoadLibraries(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  fullName: CodeFactory.NDF.DependencyInjectionLoader.LoadLibraries(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: DependencyInjectionLoader.LoadLibraries(IServiceCollection, IConfiguration)
+- uid: CodeFactory.NDF.DependencyInjectionLoader.LoadLibraries*
+  name: LoadLibraries
+  href: api/CodeFactory.NDF.DependencyInjectionLoader.html#CodeFactory_NDF_DependencyInjectionLoader_LoadLibraries_
+  commentId: Overload:CodeFactory.NDF.DependencyInjectionLoader.LoadLibraries
+  isSpec: "True"
+  fullName: CodeFactory.NDF.DependencyInjectionLoader.LoadLibraries
+  nameWithType: DependencyInjectionLoader.LoadLibraries
+- uid: CodeFactory.NDF.DependencyInjectionLoader.LoadManualRegistration(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  name: LoadManualRegistration(IServiceCollection, IConfiguration)
+  href: api/CodeFactory.NDF.DependencyInjectionLoader.html#CodeFactory_NDF_DependencyInjectionLoader_LoadManualRegistration_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:CodeFactory.NDF.DependencyInjectionLoader.LoadManualRegistration(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  fullName: CodeFactory.NDF.DependencyInjectionLoader.LoadManualRegistration(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: DependencyInjectionLoader.LoadManualRegistration(IServiceCollection, IConfiguration)
+- uid: CodeFactory.NDF.DependencyInjectionLoader.LoadManualRegistration*
+  name: LoadManualRegistration
+  href: api/CodeFactory.NDF.DependencyInjectionLoader.html#CodeFactory_NDF_DependencyInjectionLoader_LoadManualRegistration_
+  commentId: Overload:CodeFactory.NDF.DependencyInjectionLoader.LoadManualRegistration
+  isSpec: "True"
+  fullName: CodeFactory.NDF.DependencyInjectionLoader.LoadManualRegistration
+  nameWithType: DependencyInjectionLoader.LoadManualRegistration
+- uid: CodeFactory.NDF.DependencyInjectionLoader.LoadRegistration(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  name: LoadRegistration(IServiceCollection, IConfiguration)
+  href: api/CodeFactory.NDF.DependencyInjectionLoader.html#CodeFactory_NDF_DependencyInjectionLoader_LoadRegistration_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:CodeFactory.NDF.DependencyInjectionLoader.LoadRegistration(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  fullName: CodeFactory.NDF.DependencyInjectionLoader.LoadRegistration(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: DependencyInjectionLoader.LoadRegistration(IServiceCollection, IConfiguration)
+- uid: CodeFactory.NDF.DependencyInjectionLoader.LoadRegistration*
+  name: LoadRegistration
+  href: api/CodeFactory.NDF.DependencyInjectionLoader.html#CodeFactory_NDF_DependencyInjectionLoader_LoadRegistration_
+  commentId: Overload:CodeFactory.NDF.DependencyInjectionLoader.LoadRegistration
+  isSpec: "True"
+  fullName: CodeFactory.NDF.DependencyInjectionLoader.LoadRegistration
+  nameWithType: DependencyInjectionLoader.LoadRegistration
+- uid: CodeFactory.NDF.DuplicateException
+  name: DuplicateException
+  href: api/CodeFactory.NDF.DuplicateException.html
+  commentId: T:CodeFactory.NDF.DuplicateException
+  fullName: CodeFactory.NDF.DuplicateException
+  nameWithType: DuplicateException
+- uid: CodeFactory.NDF.DuplicateException.#ctor
+  name: DuplicateException()
+  href: api/CodeFactory.NDF.DuplicateException.html#CodeFactory_NDF_DuplicateException__ctor
+  commentId: M:CodeFactory.NDF.DuplicateException.#ctor
+  fullName: CodeFactory.NDF.DuplicateException.DuplicateException()
+  nameWithType: DuplicateException.DuplicateException()
+- uid: CodeFactory.NDF.DuplicateException.#ctor(System.Exception)
+  name: DuplicateException(Exception)
+  href: api/CodeFactory.NDF.DuplicateException.html#CodeFactory_NDF_DuplicateException__ctor_System_Exception_
+  commentId: M:CodeFactory.NDF.DuplicateException.#ctor(System.Exception)
+  fullName: CodeFactory.NDF.DuplicateException.DuplicateException(System.Exception)
+  nameWithType: DuplicateException.DuplicateException(Exception)
+- uid: CodeFactory.NDF.DuplicateException.#ctor(System.String)
+  name: DuplicateException(String)
+  href: api/CodeFactory.NDF.DuplicateException.html#CodeFactory_NDF_DuplicateException__ctor_System_String_
+  commentId: M:CodeFactory.NDF.DuplicateException.#ctor(System.String)
+  fullName: CodeFactory.NDF.DuplicateException.DuplicateException(System.String)
+  nameWithType: DuplicateException.DuplicateException(String)
+- uid: CodeFactory.NDF.DuplicateException.#ctor(System.String,System.Exception)
+  name: DuplicateException(String, Exception)
+  href: api/CodeFactory.NDF.DuplicateException.html#CodeFactory_NDF_DuplicateException__ctor_System_String_System_Exception_
+  commentId: M:CodeFactory.NDF.DuplicateException.#ctor(System.String,System.Exception)
+  fullName: CodeFactory.NDF.DuplicateException.DuplicateException(System.String, System.Exception)
+  nameWithType: DuplicateException.DuplicateException(String, Exception)
+- uid: CodeFactory.NDF.DuplicateException.#ctor*
+  name: DuplicateException
+  href: api/CodeFactory.NDF.DuplicateException.html#CodeFactory_NDF_DuplicateException__ctor_
+  commentId: Overload:CodeFactory.NDF.DuplicateException.#ctor
+  isSpec: "True"
+  fullName: CodeFactory.NDF.DuplicateException.DuplicateException
+  nameWithType: DuplicateException.DuplicateException
+- uid: CodeFactory.NDF.LogEventProperties
+  name: LogEventProperties
+  href: api/CodeFactory.NDF.LogEventProperties.html
+  commentId: T:CodeFactory.NDF.LogEventProperties
+  fullName: CodeFactory.NDF.LogEventProperties
+  nameWithType: LogEventProperties
+- uid: CodeFactory.NDF.LogEventProperties.#ctor(System.String)
+  name: LogEventProperties(String)
+  href: api/CodeFactory.NDF.LogEventProperties.html#CodeFactory_NDF_LogEventProperties__ctor_System_String_
+  commentId: M:CodeFactory.NDF.LogEventProperties.#ctor(System.String)
+  fullName: CodeFactory.NDF.LogEventProperties.LogEventProperties(System.String)
+  nameWithType: LogEventProperties.LogEventProperties(String)
+- uid: CodeFactory.NDF.LogEventProperties.#ctor*
+  name: LogEventProperties
+  href: api/CodeFactory.NDF.LogEventProperties.html#CodeFactory_NDF_LogEventProperties__ctor_
+  commentId: Overload:CodeFactory.NDF.LogEventProperties.#ctor
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LogEventProperties.LogEventProperties
+  nameWithType: LogEventProperties.LogEventProperties
+- uid: CodeFactory.NDF.LogEventProperties.AddProp(System.String,System.Object)
+  name: AddProp(String, Object)
+  href: api/CodeFactory.NDF.LogEventProperties.html#CodeFactory_NDF_LogEventProperties_AddProp_System_String_System_Object_
+  commentId: M:CodeFactory.NDF.LogEventProperties.AddProp(System.String,System.Object)
+  fullName: CodeFactory.NDF.LogEventProperties.AddProp(System.String, System.Object)
+  nameWithType: LogEventProperties.AddProp(String, Object)
+- uid: CodeFactory.NDF.LogEventProperties.AddProp*
+  name: AddProp
+  href: api/CodeFactory.NDF.LogEventProperties.html#CodeFactory_NDF_LogEventProperties_AddProp_
+  commentId: Overload:CodeFactory.NDF.LogEventProperties.AddProp
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LogEventProperties.AddProp
+  nameWithType: LogEventProperties.AddProp
+- uid: CodeFactory.NDF.LogEventProperties.Formatter
+  name: Formatter
+  href: api/CodeFactory.NDF.LogEventProperties.html#CodeFactory_NDF_LogEventProperties_Formatter
+  commentId: P:CodeFactory.NDF.LogEventProperties.Formatter
+  fullName: CodeFactory.NDF.LogEventProperties.Formatter
+  nameWithType: LogEventProperties.Formatter
+- uid: CodeFactory.NDF.LogEventProperties.Formatter*
+  name: Formatter
+  href: api/CodeFactory.NDF.LogEventProperties.html#CodeFactory_NDF_LogEventProperties_Formatter_
+  commentId: Overload:CodeFactory.NDF.LogEventProperties.Formatter
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LogEventProperties.Formatter
+  nameWithType: LogEventProperties.Formatter
+- uid: CodeFactory.NDF.LogEventProperties.GetEnumerator
+  name: GetEnumerator()
+  href: api/CodeFactory.NDF.LogEventProperties.html#CodeFactory_NDF_LogEventProperties_GetEnumerator
+  commentId: M:CodeFactory.NDF.LogEventProperties.GetEnumerator
+  fullName: CodeFactory.NDF.LogEventProperties.GetEnumerator()
+  nameWithType: LogEventProperties.GetEnumerator()
+- uid: CodeFactory.NDF.LogEventProperties.GetEnumerator*
+  name: GetEnumerator
+  href: api/CodeFactory.NDF.LogEventProperties.html#CodeFactory_NDF_LogEventProperties_GetEnumerator_
+  commentId: Overload:CodeFactory.NDF.LogEventProperties.GetEnumerator
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LogEventProperties.GetEnumerator
+  nameWithType: LogEventProperties.GetEnumerator
+- uid: CodeFactory.NDF.LogEventProperties.Message
+  name: Message
+  href: api/CodeFactory.NDF.LogEventProperties.html#CodeFactory_NDF_LogEventProperties_Message
+  commentId: P:CodeFactory.NDF.LogEventProperties.Message
+  fullName: CodeFactory.NDF.LogEventProperties.Message
+  nameWithType: LogEventProperties.Message
+- uid: CodeFactory.NDF.LogEventProperties.Message*
+  name: Message
+  href: api/CodeFactory.NDF.LogEventProperties.html#CodeFactory_NDF_LogEventProperties_Message_
+  commentId: Overload:CodeFactory.NDF.LogEventProperties.Message
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LogEventProperties.Message
+  nameWithType: LogEventProperties.Message
+- uid: CodeFactory.NDF.LogEventProperties.System#Collections#IEnumerable#GetEnumerator
+  name: IEnumerable.GetEnumerator()
+  href: api/CodeFactory.NDF.LogEventProperties.html#CodeFactory_NDF_LogEventProperties_System_Collections_IEnumerable_GetEnumerator
+  commentId: M:CodeFactory.NDF.LogEventProperties.System#Collections#IEnumerable#GetEnumerator
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  fullName: CodeFactory.NDF.LogEventProperties.System.Collections.IEnumerable.GetEnumerator()
+  nameWithType: LogEventProperties.IEnumerable.GetEnumerator()
+  nameWithType.vb: LogEventProperties.System.Collections.IEnumerable.GetEnumerator()
+- uid: CodeFactory.NDF.LogEventProperties.System#Collections#IEnumerable#GetEnumerator*
+  name: IEnumerable.GetEnumerator
+  href: api/CodeFactory.NDF.LogEventProperties.html#CodeFactory_NDF_LogEventProperties_System_Collections_IEnumerable_GetEnumerator_
+  commentId: Overload:CodeFactory.NDF.LogEventProperties.System#Collections#IEnumerable#GetEnumerator
+  isSpec: "True"
+  name.vb: System.Collections.IEnumerable.GetEnumerator
+  fullName: CodeFactory.NDF.LogEventProperties.System.Collections.IEnumerable.GetEnumerator
+  nameWithType: LogEventProperties.IEnumerable.GetEnumerator
+  nameWithType.vb: LogEventProperties.System.Collections.IEnumerable.GetEnumerator
+- uid: CodeFactory.NDF.LoggingExtensions
+  name: LoggingExtensions
+  href: api/CodeFactory.NDF.LoggingExtensions.html
+  commentId: T:CodeFactory.NDF.LoggingExtensions
+  fullName: CodeFactory.NDF.LoggingExtensions
+  nameWithType: LoggingExtensions
+- uid: CodeFactory.NDF.LoggingExtensions.CriticalEnterLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: CriticalEnterLog(ILogger, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_CriticalEnterLog_Microsoft_Extensions_Logging_ILogger_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.CriticalEnterLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.CriticalEnterLog(Microsoft.Extensions.Logging.ILogger, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.CriticalEnterLog(ILogger, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.CriticalEnterLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Int32)
+  name: CriticalEnterLog(ILogger, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_CriticalEnterLog_Microsoft_Extensions_Logging_ILogger_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.CriticalEnterLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.CriticalEnterLog(Microsoft.Extensions.Logging.ILogger, System.String, System.Int32)
+  nameWithType: LoggingExtensions.CriticalEnterLog(ILogger, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.CriticalEnterLog*
+  name: CriticalEnterLog
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_CriticalEnterLog_
+  commentId: Overload:CodeFactory.NDF.LoggingExtensions.CriticalEnterLog
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LoggingExtensions.CriticalEnterLog
+  nameWithType: LoggingExtensions.CriticalEnterLog
+- uid: CodeFactory.NDF.LoggingExtensions.CriticalExitLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: CriticalExitLog(ILogger, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_CriticalExitLog_Microsoft_Extensions_Logging_ILogger_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.CriticalExitLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.CriticalExitLog(Microsoft.Extensions.Logging.ILogger, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.CriticalExitLog(ILogger, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.CriticalExitLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Int32)
+  name: CriticalExitLog(ILogger, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_CriticalExitLog_Microsoft_Extensions_Logging_ILogger_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.CriticalExitLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.CriticalExitLog(Microsoft.Extensions.Logging.ILogger, System.String, System.Int32)
+  nameWithType: LoggingExtensions.CriticalExitLog(ILogger, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.CriticalExitLog*
+  name: CriticalExitLog
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_CriticalExitLog_
+  commentId: Overload:CodeFactory.NDF.LoggingExtensions.CriticalExitLog
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LoggingExtensions.CriticalExitLog
+  nameWithType: LoggingExtensions.CriticalExitLog
+- uid: CodeFactory.NDF.LoggingExtensions.CriticalLog(Microsoft.Extensions.Logging.ILogger,System.String,Microsoft.Extensions.Logging.EventId,System.Exception,System.String,System.Int32)
+  name: CriticalLog(ILogger, String, EventId, Exception, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_CriticalLog_Microsoft_Extensions_Logging_ILogger_System_String_Microsoft_Extensions_Logging_EventId_System_Exception_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.CriticalLog(Microsoft.Extensions.Logging.ILogger,System.String,Microsoft.Extensions.Logging.EventId,System.Exception,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.CriticalLog(Microsoft.Extensions.Logging.ILogger, System.String, Microsoft.Extensions.Logging.EventId, System.Exception, System.String, System.Int32)
+  nameWithType: LoggingExtensions.CriticalLog(ILogger, String, EventId, Exception, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.CriticalLog(Microsoft.Extensions.Logging.ILogger,System.String,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: CriticalLog(ILogger, String, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_CriticalLog_Microsoft_Extensions_Logging_ILogger_System_String_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.CriticalLog(Microsoft.Extensions.Logging.ILogger,System.String,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.CriticalLog(Microsoft.Extensions.Logging.ILogger, System.String, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.CriticalLog(ILogger, String, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.CriticalLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Exception,System.String,System.Int32)
+  name: CriticalLog(ILogger, String, Exception, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_CriticalLog_Microsoft_Extensions_Logging_ILogger_System_String_System_Exception_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.CriticalLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Exception,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.CriticalLog(Microsoft.Extensions.Logging.ILogger, System.String, System.Exception, System.String, System.Int32)
+  nameWithType: LoggingExtensions.CriticalLog(ILogger, String, Exception, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.CriticalLog(Microsoft.Extensions.Logging.ILogger,System.String,System.String,System.Int32)
+  name: CriticalLog(ILogger, String, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_CriticalLog_Microsoft_Extensions_Logging_ILogger_System_String_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.CriticalLog(Microsoft.Extensions.Logging.ILogger,System.String,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.CriticalLog(Microsoft.Extensions.Logging.ILogger, System.String, System.String, System.Int32)
+  nameWithType: LoggingExtensions.CriticalLog(ILogger, String, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.CriticalLog*
+  name: CriticalLog
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_CriticalLog_
+  commentId: Overload:CodeFactory.NDF.LoggingExtensions.CriticalLog
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LoggingExtensions.CriticalLog
+  nameWithType: LoggingExtensions.CriticalLog
+- uid: CodeFactory.NDF.LoggingExtensions.DebugEnterLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: DebugEnterLog(ILogger, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_DebugEnterLog_Microsoft_Extensions_Logging_ILogger_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.DebugEnterLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.DebugEnterLog(Microsoft.Extensions.Logging.ILogger, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.DebugEnterLog(ILogger, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.DebugEnterLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Int32)
+  name: DebugEnterLog(ILogger, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_DebugEnterLog_Microsoft_Extensions_Logging_ILogger_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.DebugEnterLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.DebugEnterLog(Microsoft.Extensions.Logging.ILogger, System.String, System.Int32)
+  nameWithType: LoggingExtensions.DebugEnterLog(ILogger, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.DebugEnterLog*
+  name: DebugEnterLog
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_DebugEnterLog_
+  commentId: Overload:CodeFactory.NDF.LoggingExtensions.DebugEnterLog
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LoggingExtensions.DebugEnterLog
+  nameWithType: LoggingExtensions.DebugEnterLog
+- uid: CodeFactory.NDF.LoggingExtensions.DebugExitLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: DebugExitLog(ILogger, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_DebugExitLog_Microsoft_Extensions_Logging_ILogger_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.DebugExitLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.DebugExitLog(Microsoft.Extensions.Logging.ILogger, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.DebugExitLog(ILogger, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.DebugExitLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Int32)
+  name: DebugExitLog(ILogger, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_DebugExitLog_Microsoft_Extensions_Logging_ILogger_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.DebugExitLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.DebugExitLog(Microsoft.Extensions.Logging.ILogger, System.String, System.Int32)
+  nameWithType: LoggingExtensions.DebugExitLog(ILogger, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.DebugExitLog*
+  name: DebugExitLog
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_DebugExitLog_
+  commentId: Overload:CodeFactory.NDF.LoggingExtensions.DebugExitLog
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LoggingExtensions.DebugExitLog
+  nameWithType: LoggingExtensions.DebugExitLog
+- uid: CodeFactory.NDF.LoggingExtensions.DebugLog(Microsoft.Extensions.Logging.ILogger,System.String,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: DebugLog(ILogger, String, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_DebugLog_Microsoft_Extensions_Logging_ILogger_System_String_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.DebugLog(Microsoft.Extensions.Logging.ILogger,System.String,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.DebugLog(Microsoft.Extensions.Logging.ILogger, System.String, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.DebugLog(ILogger, String, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.DebugLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Exception,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: DebugLog(ILogger, String, Exception, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_DebugLog_Microsoft_Extensions_Logging_ILogger_System_String_System_Exception_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.DebugLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Exception,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.DebugLog(Microsoft.Extensions.Logging.ILogger, System.String, System.Exception, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.DebugLog(ILogger, String, Exception, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.DebugLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Exception,System.String,System.Int32)
+  name: DebugLog(ILogger, String, Exception, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_DebugLog_Microsoft_Extensions_Logging_ILogger_System_String_System_Exception_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.DebugLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Exception,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.DebugLog(Microsoft.Extensions.Logging.ILogger, System.String, System.Exception, System.String, System.Int32)
+  nameWithType: LoggingExtensions.DebugLog(ILogger, String, Exception, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.DebugLog(Microsoft.Extensions.Logging.ILogger,System.String,System.String,System.Int32)
+  name: DebugLog(ILogger, String, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_DebugLog_Microsoft_Extensions_Logging_ILogger_System_String_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.DebugLog(Microsoft.Extensions.Logging.ILogger,System.String,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.DebugLog(Microsoft.Extensions.Logging.ILogger, System.String, System.String, System.Int32)
+  nameWithType: LoggingExtensions.DebugLog(ILogger, String, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.DebugLog*
+  name: DebugLog
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_DebugLog_
+  commentId: Overload:CodeFactory.NDF.LoggingExtensions.DebugLog
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LoggingExtensions.DebugLog
+  nameWithType: LoggingExtensions.DebugLog
+- uid: CodeFactory.NDF.LoggingExtensions.EnterLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: EnterLog(ILogger, LogLevel, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_EnterLog_Microsoft_Extensions_Logging_ILogger_Microsoft_Extensions_Logging_LogLevel_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.EnterLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.EnterLog(Microsoft.Extensions.Logging.ILogger, Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.EnterLog(ILogger, LogLevel, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.EnterLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,System.String,System.Int32)
+  name: EnterLog(ILogger, LogLevel, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_EnterLog_Microsoft_Extensions_Logging_ILogger_Microsoft_Extensions_Logging_LogLevel_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.EnterLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.EnterLog(Microsoft.Extensions.Logging.ILogger, Microsoft.Extensions.Logging.LogLevel, System.String, System.Int32)
+  nameWithType: LoggingExtensions.EnterLog(ILogger, LogLevel, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.EnterLog*
+  name: EnterLog
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_EnterLog_
+  commentId: Overload:CodeFactory.NDF.LoggingExtensions.EnterLog
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LoggingExtensions.EnterLog
+  nameWithType: LoggingExtensions.EnterLog
+- uid: CodeFactory.NDF.LoggingExtensions.ErrorEnterLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: ErrorEnterLog(ILogger, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_ErrorEnterLog_Microsoft_Extensions_Logging_ILogger_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.ErrorEnterLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.ErrorEnterLog(Microsoft.Extensions.Logging.ILogger, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.ErrorEnterLog(ILogger, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.ErrorEnterLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Int32)
+  name: ErrorEnterLog(ILogger, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_ErrorEnterLog_Microsoft_Extensions_Logging_ILogger_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.ErrorEnterLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.ErrorEnterLog(Microsoft.Extensions.Logging.ILogger, System.String, System.Int32)
+  nameWithType: LoggingExtensions.ErrorEnterLog(ILogger, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.ErrorEnterLog*
+  name: ErrorEnterLog
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_ErrorEnterLog_
+  commentId: Overload:CodeFactory.NDF.LoggingExtensions.ErrorEnterLog
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LoggingExtensions.ErrorEnterLog
+  nameWithType: LoggingExtensions.ErrorEnterLog
+- uid: CodeFactory.NDF.LoggingExtensions.ErrorExitLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: ErrorExitLog(ILogger, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_ErrorExitLog_Microsoft_Extensions_Logging_ILogger_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.ErrorExitLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.ErrorExitLog(Microsoft.Extensions.Logging.ILogger, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.ErrorExitLog(ILogger, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.ErrorExitLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Int32)
+  name: ErrorExitLog(ILogger, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_ErrorExitLog_Microsoft_Extensions_Logging_ILogger_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.ErrorExitLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.ErrorExitLog(Microsoft.Extensions.Logging.ILogger, System.String, System.Int32)
+  nameWithType: LoggingExtensions.ErrorExitLog(ILogger, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.ErrorExitLog*
+  name: ErrorExitLog
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_ErrorExitLog_
+  commentId: Overload:CodeFactory.NDF.LoggingExtensions.ErrorExitLog
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LoggingExtensions.ErrorExitLog
+  nameWithType: LoggingExtensions.ErrorExitLog
+- uid: CodeFactory.NDF.LoggingExtensions.ErrorLog(Microsoft.Extensions.Logging.ILogger,System.String,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: ErrorLog(ILogger, String, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_ErrorLog_Microsoft_Extensions_Logging_ILogger_System_String_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.ErrorLog(Microsoft.Extensions.Logging.ILogger,System.String,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.ErrorLog(Microsoft.Extensions.Logging.ILogger, System.String, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.ErrorLog(ILogger, String, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.ErrorLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Exception,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: ErrorLog(ILogger, String, Exception, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_ErrorLog_Microsoft_Extensions_Logging_ILogger_System_String_System_Exception_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.ErrorLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Exception,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.ErrorLog(Microsoft.Extensions.Logging.ILogger, System.String, System.Exception, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.ErrorLog(ILogger, String, Exception, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.ErrorLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Exception,System.String,System.Int32)
+  name: ErrorLog(ILogger, String, Exception, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_ErrorLog_Microsoft_Extensions_Logging_ILogger_System_String_System_Exception_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.ErrorLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Exception,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.ErrorLog(Microsoft.Extensions.Logging.ILogger, System.String, System.Exception, System.String, System.Int32)
+  nameWithType: LoggingExtensions.ErrorLog(ILogger, String, Exception, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.ErrorLog(Microsoft.Extensions.Logging.ILogger,System.String,System.String,System.Int32)
+  name: ErrorLog(ILogger, String, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_ErrorLog_Microsoft_Extensions_Logging_ILogger_System_String_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.ErrorLog(Microsoft.Extensions.Logging.ILogger,System.String,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.ErrorLog(Microsoft.Extensions.Logging.ILogger, System.String, System.String, System.Int32)
+  nameWithType: LoggingExtensions.ErrorLog(ILogger, String, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.ErrorLog*
+  name: ErrorLog
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_ErrorLog_
+  commentId: Overload:CodeFactory.NDF.LoggingExtensions.ErrorLog
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LoggingExtensions.ErrorLog
+  nameWithType: LoggingExtensions.ErrorLog
+- uid: CodeFactory.NDF.LoggingExtensions.ExitLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: ExitLog(ILogger, LogLevel, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_ExitLog_Microsoft_Extensions_Logging_ILogger_Microsoft_Extensions_Logging_LogLevel_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.ExitLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.ExitLog(Microsoft.Extensions.Logging.ILogger, Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.ExitLog(ILogger, LogLevel, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.ExitLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,System.String,System.Int32)
+  name: ExitLog(ILogger, LogLevel, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_ExitLog_Microsoft_Extensions_Logging_ILogger_Microsoft_Extensions_Logging_LogLevel_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.ExitLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.ExitLog(Microsoft.Extensions.Logging.ILogger, Microsoft.Extensions.Logging.LogLevel, System.String, System.Int32)
+  nameWithType: LoggingExtensions.ExitLog(ILogger, LogLevel, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.ExitLog*
+  name: ExitLog
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_ExitLog_
+  commentId: Overload:CodeFactory.NDF.LoggingExtensions.ExitLog
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LoggingExtensions.ExitLog
+  nameWithType: LoggingExtensions.ExitLog
+- uid: CodeFactory.NDF.LoggingExtensions.InformationEnterLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: InformationEnterLog(ILogger, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_InformationEnterLog_Microsoft_Extensions_Logging_ILogger_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.InformationEnterLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.InformationEnterLog(Microsoft.Extensions.Logging.ILogger, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.InformationEnterLog(ILogger, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.InformationEnterLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Int32)
+  name: InformationEnterLog(ILogger, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_InformationEnterLog_Microsoft_Extensions_Logging_ILogger_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.InformationEnterLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.InformationEnterLog(Microsoft.Extensions.Logging.ILogger, System.String, System.Int32)
+  nameWithType: LoggingExtensions.InformationEnterLog(ILogger, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.InformationEnterLog*
+  name: InformationEnterLog
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_InformationEnterLog_
+  commentId: Overload:CodeFactory.NDF.LoggingExtensions.InformationEnterLog
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LoggingExtensions.InformationEnterLog
+  nameWithType: LoggingExtensions.InformationEnterLog
+- uid: CodeFactory.NDF.LoggingExtensions.InformationExitLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: InformationExitLog(ILogger, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_InformationExitLog_Microsoft_Extensions_Logging_ILogger_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.InformationExitLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.InformationExitLog(Microsoft.Extensions.Logging.ILogger, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.InformationExitLog(ILogger, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.InformationExitLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Int32)
+  name: InformationExitLog(ILogger, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_InformationExitLog_Microsoft_Extensions_Logging_ILogger_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.InformationExitLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.InformationExitLog(Microsoft.Extensions.Logging.ILogger, System.String, System.Int32)
+  nameWithType: LoggingExtensions.InformationExitLog(ILogger, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.InformationExitLog*
+  name: InformationExitLog
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_InformationExitLog_
+  commentId: Overload:CodeFactory.NDF.LoggingExtensions.InformationExitLog
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LoggingExtensions.InformationExitLog
+  nameWithType: LoggingExtensions.InformationExitLog
+- uid: CodeFactory.NDF.LoggingExtensions.InformationLog(Microsoft.Extensions.Logging.ILogger,System.String,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: InformationLog(ILogger, String, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_InformationLog_Microsoft_Extensions_Logging_ILogger_System_String_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.InformationLog(Microsoft.Extensions.Logging.ILogger,System.String,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.InformationLog(Microsoft.Extensions.Logging.ILogger, System.String, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.InformationLog(ILogger, String, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.InformationLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Exception,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: InformationLog(ILogger, String, Exception, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_InformationLog_Microsoft_Extensions_Logging_ILogger_System_String_System_Exception_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.InformationLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Exception,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.InformationLog(Microsoft.Extensions.Logging.ILogger, System.String, System.Exception, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.InformationLog(ILogger, String, Exception, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.InformationLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Exception,System.String,System.Int32)
+  name: InformationLog(ILogger, String, Exception, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_InformationLog_Microsoft_Extensions_Logging_ILogger_System_String_System_Exception_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.InformationLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Exception,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.InformationLog(Microsoft.Extensions.Logging.ILogger, System.String, System.Exception, System.String, System.Int32)
+  nameWithType: LoggingExtensions.InformationLog(ILogger, String, Exception, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.InformationLog(Microsoft.Extensions.Logging.ILogger,System.String,System.String,System.Int32)
+  name: InformationLog(ILogger, String, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_InformationLog_Microsoft_Extensions_Logging_ILogger_System_String_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.InformationLog(Microsoft.Extensions.Logging.ILogger,System.String,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.InformationLog(Microsoft.Extensions.Logging.ILogger, System.String, System.String, System.Int32)
+  nameWithType: LoggingExtensions.InformationLog(ILogger, String, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.InformationLog*
+  name: InformationLog
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_InformationLog_
+  commentId: Overload:CodeFactory.NDF.LoggingExtensions.InformationLog
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LoggingExtensions.InformationLog
+  nameWithType: LoggingExtensions.InformationLog
+- uid: CodeFactory.NDF.LoggingExtensions.LogMessage(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,System.String,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: LogMessage(ILogger, LogLevel, String, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_LogMessage_Microsoft_Extensions_Logging_ILogger_Microsoft_Extensions_Logging_LogLevel_System_String_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.LogMessage(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,System.String,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.LogMessage(Microsoft.Extensions.Logging.ILogger, Microsoft.Extensions.Logging.LogLevel, System.String, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.LogMessage(ILogger, LogLevel, String, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.LogMessage(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,System.String,System.Exception,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: LogMessage(ILogger, LogLevel, String, Exception, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_LogMessage_Microsoft_Extensions_Logging_ILogger_Microsoft_Extensions_Logging_LogLevel_System_String_System_Exception_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.LogMessage(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,System.String,System.Exception,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.LogMessage(Microsoft.Extensions.Logging.ILogger, Microsoft.Extensions.Logging.LogLevel, System.String, System.Exception, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.LogMessage(ILogger, LogLevel, String, Exception, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.LogMessage(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,System.String,System.Exception,System.String,System.Int32)
+  name: LogMessage(ILogger, LogLevel, String, Exception, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_LogMessage_Microsoft_Extensions_Logging_ILogger_Microsoft_Extensions_Logging_LogLevel_System_String_System_Exception_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.LogMessage(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,System.String,System.Exception,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.LogMessage(Microsoft.Extensions.Logging.ILogger, Microsoft.Extensions.Logging.LogLevel, System.String, System.Exception, System.String, System.Int32)
+  nameWithType: LoggingExtensions.LogMessage(ILogger, LogLevel, String, Exception, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.LogMessage(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,System.String,System.String,System.Int32)
+  name: LogMessage(ILogger, LogLevel, String, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_LogMessage_Microsoft_Extensions_Logging_ILogger_Microsoft_Extensions_Logging_LogLevel_System_String_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.LogMessage(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,System.String,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.LogMessage(Microsoft.Extensions.Logging.ILogger, Microsoft.Extensions.Logging.LogLevel, System.String, System.String, System.Int32)
+  nameWithType: LoggingExtensions.LogMessage(ILogger, LogLevel, String, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.LogMessage*
+  name: LogMessage
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_LogMessage_
+  commentId: Overload:CodeFactory.NDF.LoggingExtensions.LogMessage
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LoggingExtensions.LogMessage
+  nameWithType: LoggingExtensions.LogMessage
+- uid: CodeFactory.NDF.LoggingExtensions.PropertyLineNumber
+  name: PropertyLineNumber
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_PropertyLineNumber
+  commentId: F:CodeFactory.NDF.LoggingExtensions.PropertyLineNumber
+  fullName: CodeFactory.NDF.LoggingExtensions.PropertyLineNumber
+  nameWithType: LoggingExtensions.PropertyLineNumber
+- uid: CodeFactory.NDF.LoggingExtensions.PropertyMemberName
+  name: PropertyMemberName
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_PropertyMemberName
+  commentId: F:CodeFactory.NDF.LoggingExtensions.PropertyMemberName
+  fullName: CodeFactory.NDF.LoggingExtensions.PropertyMemberName
+  nameWithType: LoggingExtensions.PropertyMemberName
+- uid: CodeFactory.NDF.LoggingExtensions.TraceEnterLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: TraceEnterLog(ILogger, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_TraceEnterLog_Microsoft_Extensions_Logging_ILogger_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.TraceEnterLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.TraceEnterLog(Microsoft.Extensions.Logging.ILogger, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.TraceEnterLog(ILogger, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.TraceEnterLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Int32)
+  name: TraceEnterLog(ILogger, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_TraceEnterLog_Microsoft_Extensions_Logging_ILogger_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.TraceEnterLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.TraceEnterLog(Microsoft.Extensions.Logging.ILogger, System.String, System.Int32)
+  nameWithType: LoggingExtensions.TraceEnterLog(ILogger, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.TraceEnterLog*
+  name: TraceEnterLog
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_TraceEnterLog_
+  commentId: Overload:CodeFactory.NDF.LoggingExtensions.TraceEnterLog
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LoggingExtensions.TraceEnterLog
+  nameWithType: LoggingExtensions.TraceEnterLog
+- uid: CodeFactory.NDF.LoggingExtensions.TraceExitLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: TraceExitLog(ILogger, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_TraceExitLog_Microsoft_Extensions_Logging_ILogger_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.TraceExitLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.TraceExitLog(Microsoft.Extensions.Logging.ILogger, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.TraceExitLog(ILogger, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.TraceExitLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Int32)
+  name: TraceExitLog(ILogger, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_TraceExitLog_Microsoft_Extensions_Logging_ILogger_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.TraceExitLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.TraceExitLog(Microsoft.Extensions.Logging.ILogger, System.String, System.Int32)
+  nameWithType: LoggingExtensions.TraceExitLog(ILogger, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.TraceExitLog*
+  name: TraceExitLog
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_TraceExitLog_
+  commentId: Overload:CodeFactory.NDF.LoggingExtensions.TraceExitLog
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LoggingExtensions.TraceExitLog
+  nameWithType: LoggingExtensions.TraceExitLog
+- uid: CodeFactory.NDF.LoggingExtensions.TraceLog(Microsoft.Extensions.Logging.ILogger,System.String,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: TraceLog(ILogger, String, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_TraceLog_Microsoft_Extensions_Logging_ILogger_System_String_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.TraceLog(Microsoft.Extensions.Logging.ILogger,System.String,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.TraceLog(Microsoft.Extensions.Logging.ILogger, System.String, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.TraceLog(ILogger, String, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.TraceLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Exception,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: TraceLog(ILogger, String, Exception, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_TraceLog_Microsoft_Extensions_Logging_ILogger_System_String_System_Exception_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.TraceLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Exception,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.TraceLog(Microsoft.Extensions.Logging.ILogger, System.String, System.Exception, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.TraceLog(ILogger, String, Exception, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.TraceLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Exception,System.String,System.Int32)
+  name: TraceLog(ILogger, String, Exception, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_TraceLog_Microsoft_Extensions_Logging_ILogger_System_String_System_Exception_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.TraceLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Exception,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.TraceLog(Microsoft.Extensions.Logging.ILogger, System.String, System.Exception, System.String, System.Int32)
+  nameWithType: LoggingExtensions.TraceLog(ILogger, String, Exception, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.TraceLog(Microsoft.Extensions.Logging.ILogger,System.String,System.String,System.Int32)
+  name: TraceLog(ILogger, String, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_TraceLog_Microsoft_Extensions_Logging_ILogger_System_String_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.TraceLog(Microsoft.Extensions.Logging.ILogger,System.String,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.TraceLog(Microsoft.Extensions.Logging.ILogger, System.String, System.String, System.Int32)
+  nameWithType: LoggingExtensions.TraceLog(ILogger, String, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.TraceLog*
+  name: TraceLog
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_TraceLog_
+  commentId: Overload:CodeFactory.NDF.LoggingExtensions.TraceLog
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LoggingExtensions.TraceLog
+  nameWithType: LoggingExtensions.TraceLog
+- uid: CodeFactory.NDF.LoggingExtensions.WarningEnterLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: WarningEnterLog(ILogger, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_WarningEnterLog_Microsoft_Extensions_Logging_ILogger_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.WarningEnterLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.WarningEnterLog(Microsoft.Extensions.Logging.ILogger, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.WarningEnterLog(ILogger, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.WarningEnterLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Int32)
+  name: WarningEnterLog(ILogger, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_WarningEnterLog_Microsoft_Extensions_Logging_ILogger_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.WarningEnterLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.WarningEnterLog(Microsoft.Extensions.Logging.ILogger, System.String, System.Int32)
+  nameWithType: LoggingExtensions.WarningEnterLog(ILogger, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.WarningEnterLog*
+  name: WarningEnterLog
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_WarningEnterLog_
+  commentId: Overload:CodeFactory.NDF.LoggingExtensions.WarningEnterLog
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LoggingExtensions.WarningEnterLog
+  nameWithType: LoggingExtensions.WarningEnterLog
+- uid: CodeFactory.NDF.LoggingExtensions.WarningExitLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: WarningExitLog(ILogger, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_WarningExitLog_Microsoft_Extensions_Logging_ILogger_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.WarningExitLog(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.WarningExitLog(Microsoft.Extensions.Logging.ILogger, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.WarningExitLog(ILogger, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.WarningExitLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Int32)
+  name: WarningExitLog(ILogger, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_WarningExitLog_Microsoft_Extensions_Logging_ILogger_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.WarningExitLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.WarningExitLog(Microsoft.Extensions.Logging.ILogger, System.String, System.Int32)
+  nameWithType: LoggingExtensions.WarningExitLog(ILogger, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.WarningExitLog*
+  name: WarningExitLog
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_WarningExitLog_
+  commentId: Overload:CodeFactory.NDF.LoggingExtensions.WarningExitLog
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LoggingExtensions.WarningExitLog
+  nameWithType: LoggingExtensions.WarningExitLog
+- uid: CodeFactory.NDF.LoggingExtensions.WarningLog(Microsoft.Extensions.Logging.ILogger,System.String,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: WarningLog(ILogger, String, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_WarningLog_Microsoft_Extensions_Logging_ILogger_System_String_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.WarningLog(Microsoft.Extensions.Logging.ILogger,System.String,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.WarningLog(Microsoft.Extensions.Logging.ILogger, System.String, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.WarningLog(ILogger, String, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.WarningLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Exception,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  name: WarningLog(ILogger, String, Exception, EventId, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_WarningLog_Microsoft_Extensions_Logging_ILogger_System_String_System_Exception_Microsoft_Extensions_Logging_EventId_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.WarningLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Exception,Microsoft.Extensions.Logging.EventId,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.WarningLog(Microsoft.Extensions.Logging.ILogger, System.String, System.Exception, Microsoft.Extensions.Logging.EventId, System.String, System.Int32)
+  nameWithType: LoggingExtensions.WarningLog(ILogger, String, Exception, EventId, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.WarningLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Exception,System.String,System.Int32)
+  name: WarningLog(ILogger, String, Exception, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_WarningLog_Microsoft_Extensions_Logging_ILogger_System_String_System_Exception_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.WarningLog(Microsoft.Extensions.Logging.ILogger,System.String,System.Exception,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.WarningLog(Microsoft.Extensions.Logging.ILogger, System.String, System.Exception, System.String, System.Int32)
+  nameWithType: LoggingExtensions.WarningLog(ILogger, String, Exception, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.WarningLog(Microsoft.Extensions.Logging.ILogger,System.String,System.String,System.Int32)
+  name: WarningLog(ILogger, String, String, Int32)
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_WarningLog_Microsoft_Extensions_Logging_ILogger_System_String_System_String_System_Int32_
+  commentId: M:CodeFactory.NDF.LoggingExtensions.WarningLog(Microsoft.Extensions.Logging.ILogger,System.String,System.String,System.Int32)
+  fullName: CodeFactory.NDF.LoggingExtensions.WarningLog(Microsoft.Extensions.Logging.ILogger, System.String, System.String, System.Int32)
+  nameWithType: LoggingExtensions.WarningLog(ILogger, String, String, Int32)
+- uid: CodeFactory.NDF.LoggingExtensions.WarningLog*
+  name: WarningLog
+  href: api/CodeFactory.NDF.LoggingExtensions.html#CodeFactory_NDF_LoggingExtensions_WarningLog_
+  commentId: Overload:CodeFactory.NDF.LoggingExtensions.WarningLog
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LoggingExtensions.WarningLog
+  nameWithType: LoggingExtensions.WarningLog
+- uid: CodeFactory.NDF.LogicException
+  name: LogicException
+  href: api/CodeFactory.NDF.LogicException.html
+  commentId: T:CodeFactory.NDF.LogicException
+  fullName: CodeFactory.NDF.LogicException
+  nameWithType: LogicException
+- uid: CodeFactory.NDF.LogicException.#ctor
+  name: LogicException()
+  href: api/CodeFactory.NDF.LogicException.html#CodeFactory_NDF_LogicException__ctor
+  commentId: M:CodeFactory.NDF.LogicException.#ctor
+  fullName: CodeFactory.NDF.LogicException.LogicException()
+  nameWithType: LogicException.LogicException()
+- uid: CodeFactory.NDF.LogicException.#ctor(System.Exception)
+  name: LogicException(Exception)
+  href: api/CodeFactory.NDF.LogicException.html#CodeFactory_NDF_LogicException__ctor_System_Exception_
+  commentId: M:CodeFactory.NDF.LogicException.#ctor(System.Exception)
+  fullName: CodeFactory.NDF.LogicException.LogicException(System.Exception)
+  nameWithType: LogicException.LogicException(Exception)
+- uid: CodeFactory.NDF.LogicException.#ctor(System.String)
+  name: LogicException(String)
+  href: api/CodeFactory.NDF.LogicException.html#CodeFactory_NDF_LogicException__ctor_System_String_
+  commentId: M:CodeFactory.NDF.LogicException.#ctor(System.String)
+  fullName: CodeFactory.NDF.LogicException.LogicException(System.String)
+  nameWithType: LogicException.LogicException(String)
+- uid: CodeFactory.NDF.LogicException.#ctor(System.String,System.Exception)
+  name: LogicException(String, Exception)
+  href: api/CodeFactory.NDF.LogicException.html#CodeFactory_NDF_LogicException__ctor_System_String_System_Exception_
+  commentId: M:CodeFactory.NDF.LogicException.#ctor(System.String,System.Exception)
+  fullName: CodeFactory.NDF.LogicException.LogicException(System.String, System.Exception)
+  nameWithType: LogicException.LogicException(String, Exception)
+- uid: CodeFactory.NDF.LogicException.#ctor*
+  name: LogicException
+  href: api/CodeFactory.NDF.LogicException.html#CodeFactory_NDF_LogicException__ctor_
+  commentId: Overload:CodeFactory.NDF.LogicException.#ctor
+  isSpec: "True"
+  fullName: CodeFactory.NDF.LogicException.LogicException
+  nameWithType: LogicException.LogicException
+- uid: CodeFactory.NDF.ManagedException
+  name: ManagedException
+  href: api/CodeFactory.NDF.ManagedException.html
+  commentId: T:CodeFactory.NDF.ManagedException
+  fullName: CodeFactory.NDF.ManagedException
+  nameWithType: ManagedException
+- uid: CodeFactory.NDF.ManagedException.#ctor
+  name: ManagedException()
+  href: api/CodeFactory.NDF.ManagedException.html#CodeFactory_NDF_ManagedException__ctor
+  commentId: M:CodeFactory.NDF.ManagedException.#ctor
+  fullName: CodeFactory.NDF.ManagedException.ManagedException()
+  nameWithType: ManagedException.ManagedException()
+- uid: CodeFactory.NDF.ManagedException.#ctor(System.Exception)
+  name: ManagedException(Exception)
+  href: api/CodeFactory.NDF.ManagedException.html#CodeFactory_NDF_ManagedException__ctor_System_Exception_
+  commentId: M:CodeFactory.NDF.ManagedException.#ctor(System.Exception)
+  fullName: CodeFactory.NDF.ManagedException.ManagedException(System.Exception)
+  nameWithType: ManagedException.ManagedException(Exception)
+- uid: CodeFactory.NDF.ManagedException.#ctor(System.String)
+  name: ManagedException(String)
+  href: api/CodeFactory.NDF.ManagedException.html#CodeFactory_NDF_ManagedException__ctor_System_String_
+  commentId: M:CodeFactory.NDF.ManagedException.#ctor(System.String)
+  fullName: CodeFactory.NDF.ManagedException.ManagedException(System.String)
+  nameWithType: ManagedException.ManagedException(String)
+- uid: CodeFactory.NDF.ManagedException.#ctor(System.String,System.Exception)
+  name: ManagedException(String, Exception)
+  href: api/CodeFactory.NDF.ManagedException.html#CodeFactory_NDF_ManagedException__ctor_System_String_System_Exception_
+  commentId: M:CodeFactory.NDF.ManagedException.#ctor(System.String,System.Exception)
+  fullName: CodeFactory.NDF.ManagedException.ManagedException(System.String, System.Exception)
+  nameWithType: ManagedException.ManagedException(String, Exception)
+- uid: CodeFactory.NDF.ManagedException.#ctor*
+  name: ManagedException
+  href: api/CodeFactory.NDF.ManagedException.html#CodeFactory_NDF_ManagedException__ctor_
+  commentId: Overload:CodeFactory.NDF.ManagedException.#ctor
+  isSpec: "True"
+  fullName: CodeFactory.NDF.ManagedException.ManagedException
+  nameWithType: ManagedException.ManagedException
+- uid: CodeFactory.NDF.ManagedExceptions
+  name: ManagedExceptions
+  href: api/CodeFactory.NDF.ManagedExceptions.html
+  commentId: T:CodeFactory.NDF.ManagedExceptions
+  fullName: CodeFactory.NDF.ManagedExceptions
+  nameWithType: ManagedExceptions
+- uid: CodeFactory.NDF.ManagedExceptions.#ctor(System.Collections.Generic.IEnumerable{CodeFactory.NDF.ManagedException})
+  name: ManagedExceptions(IEnumerable<ManagedException>)
+  href: api/CodeFactory.NDF.ManagedExceptions.html#CodeFactory_NDF_ManagedExceptions__ctor_System_Collections_Generic_IEnumerable_CodeFactory_NDF_ManagedException__
+  commentId: M:CodeFactory.NDF.ManagedExceptions.#ctor(System.Collections.Generic.IEnumerable{CodeFactory.NDF.ManagedException})
+  name.vb: ManagedExceptions(IEnumerable(Of ManagedException))
+  fullName: CodeFactory.NDF.ManagedExceptions.ManagedExceptions(System.Collections.Generic.IEnumerable<CodeFactory.NDF.ManagedException>)
+  fullName.vb: CodeFactory.NDF.ManagedExceptions.ManagedExceptions(System.Collections.Generic.IEnumerable(Of CodeFactory.NDF.ManagedException))
+  nameWithType: ManagedExceptions.ManagedExceptions(IEnumerable<ManagedException>)
+  nameWithType.vb: ManagedExceptions.ManagedExceptions(IEnumerable(Of ManagedException))
+- uid: CodeFactory.NDF.ManagedExceptions.#ctor*
+  name: ManagedExceptions
+  href: api/CodeFactory.NDF.ManagedExceptions.html#CodeFactory_NDF_ManagedExceptions__ctor_
+  commentId: Overload:CodeFactory.NDF.ManagedExceptions.#ctor
+  isSpec: "True"
+  fullName: CodeFactory.NDF.ManagedExceptions.ManagedExceptions
+  nameWithType: ManagedExceptions.ManagedExceptions
+- uid: CodeFactory.NDF.ManagedExceptions.Exceptions
+  name: Exceptions
+  href: api/CodeFactory.NDF.ManagedExceptions.html#CodeFactory_NDF_ManagedExceptions_Exceptions
+  commentId: P:CodeFactory.NDF.ManagedExceptions.Exceptions
+  fullName: CodeFactory.NDF.ManagedExceptions.Exceptions
+  nameWithType: ManagedExceptions.Exceptions
+- uid: CodeFactory.NDF.ManagedExceptions.Exceptions*
+  name: Exceptions
+  href: api/CodeFactory.NDF.ManagedExceptions.html#CodeFactory_NDF_ManagedExceptions_Exceptions_
+  commentId: Overload:CodeFactory.NDF.ManagedExceptions.Exceptions
+  isSpec: "True"
+  fullName: CodeFactory.NDF.ManagedExceptions.Exceptions
+  nameWithType: ManagedExceptions.Exceptions
+- uid: CodeFactory.NDF.SecurityException
+  name: SecurityException
+  href: api/CodeFactory.NDF.SecurityException.html
+  commentId: T:CodeFactory.NDF.SecurityException
+  fullName: CodeFactory.NDF.SecurityException
+  nameWithType: SecurityException
+- uid: CodeFactory.NDF.SecurityException.#ctor
+  name: SecurityException()
+  href: api/CodeFactory.NDF.SecurityException.html#CodeFactory_NDF_SecurityException__ctor
+  commentId: M:CodeFactory.NDF.SecurityException.#ctor
+  fullName: CodeFactory.NDF.SecurityException.SecurityException()
+  nameWithType: SecurityException.SecurityException()
+- uid: CodeFactory.NDF.SecurityException.#ctor(System.Exception)
+  name: SecurityException(Exception)
+  href: api/CodeFactory.NDF.SecurityException.html#CodeFactory_NDF_SecurityException__ctor_System_Exception_
+  commentId: M:CodeFactory.NDF.SecurityException.#ctor(System.Exception)
+  fullName: CodeFactory.NDF.SecurityException.SecurityException(System.Exception)
+  nameWithType: SecurityException.SecurityException(Exception)
+- uid: CodeFactory.NDF.SecurityException.#ctor(System.String)
+  name: SecurityException(String)
+  href: api/CodeFactory.NDF.SecurityException.html#CodeFactory_NDF_SecurityException__ctor_System_String_
+  commentId: M:CodeFactory.NDF.SecurityException.#ctor(System.String)
+  fullName: CodeFactory.NDF.SecurityException.SecurityException(System.String)
+  nameWithType: SecurityException.SecurityException(String)
+- uid: CodeFactory.NDF.SecurityException.#ctor(System.String,System.Exception)
+  name: SecurityException(String, Exception)
+  href: api/CodeFactory.NDF.SecurityException.html#CodeFactory_NDF_SecurityException__ctor_System_String_System_Exception_
+  commentId: M:CodeFactory.NDF.SecurityException.#ctor(System.String,System.Exception)
+  fullName: CodeFactory.NDF.SecurityException.SecurityException(System.String, System.Exception)
+  nameWithType: SecurityException.SecurityException(String, Exception)
+- uid: CodeFactory.NDF.SecurityException.#ctor*
+  name: SecurityException
+  href: api/CodeFactory.NDF.SecurityException.html#CodeFactory_NDF_SecurityException__ctor_
+  commentId: Overload:CodeFactory.NDF.SecurityException.#ctor
+  isSpec: "True"
+  fullName: CodeFactory.NDF.SecurityException.SecurityException
+  nameWithType: SecurityException.SecurityException
+- uid: CodeFactory.NDF.StandardExceptionMessages
+  name: StandardExceptionMessages
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html
+  commentId: T:CodeFactory.NDF.StandardExceptionMessages
+  fullName: CodeFactory.NDF.StandardExceptionMessages
+  nameWithType: StandardExceptionMessages
+- uid: CodeFactory.NDF.StandardExceptionMessages.AuthenticationException
+  name: AuthenticationException
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_AuthenticationException
+  commentId: P:CodeFactory.NDF.StandardExceptionMessages.AuthenticationException
+  fullName: CodeFactory.NDF.StandardExceptionMessages.AuthenticationException
+  nameWithType: StandardExceptionMessages.AuthenticationException
+- uid: CodeFactory.NDF.StandardExceptionMessages.AuthenticationException*
+  name: AuthenticationException
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_AuthenticationException_
+  commentId: Overload:CodeFactory.NDF.StandardExceptionMessages.AuthenticationException
+  isSpec: "True"
+  fullName: CodeFactory.NDF.StandardExceptionMessages.AuthenticationException
+  nameWithType: StandardExceptionMessages.AuthenticationException
+- uid: CodeFactory.NDF.StandardExceptionMessages.AuthorizationException
+  name: AuthorizationException
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_AuthorizationException
+  commentId: P:CodeFactory.NDF.StandardExceptionMessages.AuthorizationException
+  fullName: CodeFactory.NDF.StandardExceptionMessages.AuthorizationException
+  nameWithType: StandardExceptionMessages.AuthorizationException
+- uid: CodeFactory.NDF.StandardExceptionMessages.AuthorizationException*
+  name: AuthorizationException
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_AuthorizationException_
+  commentId: Overload:CodeFactory.NDF.StandardExceptionMessages.AuthorizationException
+  isSpec: "True"
+  fullName: CodeFactory.NDF.StandardExceptionMessages.AuthorizationException
+  nameWithType: StandardExceptionMessages.AuthorizationException
+- uid: CodeFactory.NDF.StandardExceptionMessages.CommunicationException
+  name: CommunicationException
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_CommunicationException
+  commentId: P:CodeFactory.NDF.StandardExceptionMessages.CommunicationException
+  fullName: CodeFactory.NDF.StandardExceptionMessages.CommunicationException
+  nameWithType: StandardExceptionMessages.CommunicationException
+- uid: CodeFactory.NDF.StandardExceptionMessages.CommunicationException*
+  name: CommunicationException
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_CommunicationException_
+  commentId: Overload:CodeFactory.NDF.StandardExceptionMessages.CommunicationException
+  isSpec: "True"
+  fullName: CodeFactory.NDF.StandardExceptionMessages.CommunicationException
+  nameWithType: StandardExceptionMessages.CommunicationException
+- uid: CodeFactory.NDF.StandardExceptionMessages.ConfigurationException
+  name: ConfigurationException
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_ConfigurationException
+  commentId: P:CodeFactory.NDF.StandardExceptionMessages.ConfigurationException
+  fullName: CodeFactory.NDF.StandardExceptionMessages.ConfigurationException
+  nameWithType: StandardExceptionMessages.ConfigurationException
+- uid: CodeFactory.NDF.StandardExceptionMessages.ConfigurationException*
+  name: ConfigurationException
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_ConfigurationException_
+  commentId: Overload:CodeFactory.NDF.StandardExceptionMessages.ConfigurationException
+  isSpec: "True"
+  fullName: CodeFactory.NDF.StandardExceptionMessages.ConfigurationException
+  nameWithType: StandardExceptionMessages.ConfigurationException
+- uid: CodeFactory.NDF.StandardExceptionMessages.Culture
+  name: Culture
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_Culture
+  commentId: P:CodeFactory.NDF.StandardExceptionMessages.Culture
+  fullName: CodeFactory.NDF.StandardExceptionMessages.Culture
+  nameWithType: StandardExceptionMessages.Culture
+- uid: CodeFactory.NDF.StandardExceptionMessages.Culture*
+  name: Culture
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_Culture_
+  commentId: Overload:CodeFactory.NDF.StandardExceptionMessages.Culture
+  isSpec: "True"
+  fullName: CodeFactory.NDF.StandardExceptionMessages.Culture
+  nameWithType: StandardExceptionMessages.Culture
+- uid: CodeFactory.NDF.StandardExceptionMessages.DataException
+  name: DataException
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_DataException
+  commentId: P:CodeFactory.NDF.StandardExceptionMessages.DataException
+  fullName: CodeFactory.NDF.StandardExceptionMessages.DataException
+  nameWithType: StandardExceptionMessages.DataException
+- uid: CodeFactory.NDF.StandardExceptionMessages.DataException*
+  name: DataException
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_DataException_
+  commentId: Overload:CodeFactory.NDF.StandardExceptionMessages.DataException
+  isSpec: "True"
+  fullName: CodeFactory.NDF.StandardExceptionMessages.DataException
+  nameWithType: StandardExceptionMessages.DataException
+- uid: CodeFactory.NDF.StandardExceptionMessages.DataValidationException
+  name: DataValidationException
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_DataValidationException
+  commentId: P:CodeFactory.NDF.StandardExceptionMessages.DataValidationException
+  fullName: CodeFactory.NDF.StandardExceptionMessages.DataValidationException
+  nameWithType: StandardExceptionMessages.DataValidationException
+- uid: CodeFactory.NDF.StandardExceptionMessages.DataValidationException*
+  name: DataValidationException
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_DataValidationException_
+  commentId: Overload:CodeFactory.NDF.StandardExceptionMessages.DataValidationException
+  isSpec: "True"
+  fullName: CodeFactory.NDF.StandardExceptionMessages.DataValidationException
+  nameWithType: StandardExceptionMessages.DataValidationException
+- uid: CodeFactory.NDF.StandardExceptionMessages.DuplicateException
+  name: DuplicateException
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_DuplicateException
+  commentId: P:CodeFactory.NDF.StandardExceptionMessages.DuplicateException
+  fullName: CodeFactory.NDF.StandardExceptionMessages.DuplicateException
+  nameWithType: StandardExceptionMessages.DuplicateException
+- uid: CodeFactory.NDF.StandardExceptionMessages.DuplicateException*
+  name: DuplicateException
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_DuplicateException_
+  commentId: Overload:CodeFactory.NDF.StandardExceptionMessages.DuplicateException
+  isSpec: "True"
+  fullName: CodeFactory.NDF.StandardExceptionMessages.DuplicateException
+  nameWithType: StandardExceptionMessages.DuplicateException
+- uid: CodeFactory.NDF.StandardExceptionMessages.LogicException
+  name: LogicException
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_LogicException
+  commentId: P:CodeFactory.NDF.StandardExceptionMessages.LogicException
+  fullName: CodeFactory.NDF.StandardExceptionMessages.LogicException
+  nameWithType: StandardExceptionMessages.LogicException
+- uid: CodeFactory.NDF.StandardExceptionMessages.LogicException*
+  name: LogicException
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_LogicException_
+  commentId: Overload:CodeFactory.NDF.StandardExceptionMessages.LogicException
+  isSpec: "True"
+  fullName: CodeFactory.NDF.StandardExceptionMessages.LogicException
+  nameWithType: StandardExceptionMessages.LogicException
+- uid: CodeFactory.NDF.StandardExceptionMessages.ManagedException
+  name: ManagedException
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_ManagedException
+  commentId: P:CodeFactory.NDF.StandardExceptionMessages.ManagedException
+  fullName: CodeFactory.NDF.StandardExceptionMessages.ManagedException
+  nameWithType: StandardExceptionMessages.ManagedException
+- uid: CodeFactory.NDF.StandardExceptionMessages.ManagedException*
+  name: ManagedException
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_ManagedException_
+  commentId: Overload:CodeFactory.NDF.StandardExceptionMessages.ManagedException
+  isSpec: "True"
+  fullName: CodeFactory.NDF.StandardExceptionMessages.ManagedException
+  nameWithType: StandardExceptionMessages.ManagedException
+- uid: CodeFactory.NDF.StandardExceptionMessages.ManagedExceptions
+  name: ManagedExceptions
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_ManagedExceptions
+  commentId: P:CodeFactory.NDF.StandardExceptionMessages.ManagedExceptions
+  fullName: CodeFactory.NDF.StandardExceptionMessages.ManagedExceptions
+  nameWithType: StandardExceptionMessages.ManagedExceptions
+- uid: CodeFactory.NDF.StandardExceptionMessages.ManagedExceptions*
+  name: ManagedExceptions
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_ManagedExceptions_
+  commentId: Overload:CodeFactory.NDF.StandardExceptionMessages.ManagedExceptions
+  isSpec: "True"
+  fullName: CodeFactory.NDF.StandardExceptionMessages.ManagedExceptions
+  nameWithType: StandardExceptionMessages.ManagedExceptions
+- uid: CodeFactory.NDF.StandardExceptionMessages.ResourceManager
+  name: ResourceManager
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_ResourceManager
+  commentId: P:CodeFactory.NDF.StandardExceptionMessages.ResourceManager
+  fullName: CodeFactory.NDF.StandardExceptionMessages.ResourceManager
+  nameWithType: StandardExceptionMessages.ResourceManager
+- uid: CodeFactory.NDF.StandardExceptionMessages.ResourceManager*
+  name: ResourceManager
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_ResourceManager_
+  commentId: Overload:CodeFactory.NDF.StandardExceptionMessages.ResourceManager
+  isSpec: "True"
+  fullName: CodeFactory.NDF.StandardExceptionMessages.ResourceManager
+  nameWithType: StandardExceptionMessages.ResourceManager
+- uid: CodeFactory.NDF.StandardExceptionMessages.SecurityException
+  name: SecurityException
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_SecurityException
+  commentId: P:CodeFactory.NDF.StandardExceptionMessages.SecurityException
+  fullName: CodeFactory.NDF.StandardExceptionMessages.SecurityException
+  nameWithType: StandardExceptionMessages.SecurityException
+- uid: CodeFactory.NDF.StandardExceptionMessages.SecurityException*
+  name: SecurityException
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_SecurityException_
+  commentId: Overload:CodeFactory.NDF.StandardExceptionMessages.SecurityException
+  isSpec: "True"
+  fullName: CodeFactory.NDF.StandardExceptionMessages.SecurityException
+  nameWithType: StandardExceptionMessages.SecurityException
+- uid: CodeFactory.NDF.StandardExceptionMessages.TimeoutException
+  name: TimeoutException
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_TimeoutException
+  commentId: P:CodeFactory.NDF.StandardExceptionMessages.TimeoutException
+  fullName: CodeFactory.NDF.StandardExceptionMessages.TimeoutException
+  nameWithType: StandardExceptionMessages.TimeoutException
+- uid: CodeFactory.NDF.StandardExceptionMessages.TimeoutException*
+  name: TimeoutException
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_TimeoutException_
+  commentId: Overload:CodeFactory.NDF.StandardExceptionMessages.TimeoutException
+  isSpec: "True"
+  fullName: CodeFactory.NDF.StandardExceptionMessages.TimeoutException
+  nameWithType: StandardExceptionMessages.TimeoutException
+- uid: CodeFactory.NDF.StandardExceptionMessages.UnhandledException
+  name: UnhandledException
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_UnhandledException
+  commentId: P:CodeFactory.NDF.StandardExceptionMessages.UnhandledException
+  fullName: CodeFactory.NDF.StandardExceptionMessages.UnhandledException
+  nameWithType: StandardExceptionMessages.UnhandledException
+- uid: CodeFactory.NDF.StandardExceptionMessages.UnhandledException*
+  name: UnhandledException
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_UnhandledException_
+  commentId: Overload:CodeFactory.NDF.StandardExceptionMessages.UnhandledException
+  isSpec: "True"
+  fullName: CodeFactory.NDF.StandardExceptionMessages.UnhandledException
+  nameWithType: StandardExceptionMessages.UnhandledException
+- uid: CodeFactory.NDF.StandardExceptionMessages.ValidationException
+  name: ValidationException
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_ValidationException
+  commentId: P:CodeFactory.NDF.StandardExceptionMessages.ValidationException
+  fullName: CodeFactory.NDF.StandardExceptionMessages.ValidationException
+  nameWithType: StandardExceptionMessages.ValidationException
+- uid: CodeFactory.NDF.StandardExceptionMessages.ValidationException*
+  name: ValidationException
+  href: api/CodeFactory.NDF.StandardExceptionMessages.html#CodeFactory_NDF_StandardExceptionMessages_ValidationException_
+  commentId: Overload:CodeFactory.NDF.StandardExceptionMessages.ValidationException
+  isSpec: "True"
+  fullName: CodeFactory.NDF.StandardExceptionMessages.ValidationException
+  nameWithType: StandardExceptionMessages.ValidationException

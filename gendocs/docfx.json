@@ -4,9 +4,9 @@
       "src": [
         {
           "files": [
-            "[solution]/[project]/[projectname].csproj"
+            "/CodeFactory.NDF/CodeFactory.NDF.csproj"
           ],
-          "src": "../src"
+          "src": "../NDF-Solution"
         }
       ],
       "dest": "api",
@@ -18,8 +18,8 @@
     "globalMetadata": {
       "_appTitle": "Net Delivery Framework",
       "_appName": "Net Delivery Framework",
-      "_appLogoPath": "images/logo.png",
-      "_appFaviconPath": "images/favicon.png",
+      "_appLogoPath": "images/NDF128.png",
+      "_appFaviconPath": "images/NDF128.png",
       "_copyrightFooter": "© CodeFactory, LLC. All rights reserved.",
       "_enableSearch": true,
       "_enableNewTab": true

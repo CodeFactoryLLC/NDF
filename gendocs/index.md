@@ -1,19 +1,23 @@
-# Net Delivery Framework
+# NDF
+The Net Delivery Framework provides common delivery framework implementations for the following.
 
-The Net Delivery Framework is a collection of common libraries that help solve common problems that occur when delivering .net core based applications.
-This framework provides implementation standards for the following.
+## Logging
+Provides standard logging support and directly injects the hosting container and the memeber name automatically.
+Also provides standard enter and exit messaging support. 
 
-- Logging
-- Exception Management
-- Dependency Injection Implementation by DLL
+## Managed Exception Pattern Implementation
+Provides a common implementation pattern for handling exceptions in the system. This is a standard set of **Managed Exceptions**. The goal of this standard pattern is the following.
+ - Raise well known exceptions that do not have any compromising data in the exception.
+ - Raise exceptions of a common category so the consumer understands the type of exception that has occurred and can handle it.
+ - Known a exception has been managed and can raise it without handling it. 
+ - Known set of exceptions that can be transformed on technology boundries and raised to other technologies. 
 
-## Information included
-This site provides the following information.
 
-### API SDK
-Provides standards .net api style documentation for the libraries implemented in this framework.
+ ## Library Based Dependency Injection Management
+ Be able to use a **Leaf** to **Trunk** pattern for adding services to ceneral depedency injection containers. Standardized base class approach that does the following.
 
-### Guidance
-Provides usages gudiance to take advantage of the core capabilities of this guidance.
+ - Provides parent to child library registeratin of DI registration with a central container. 
+ - Provides for manual entry registeration in the container registration.
+ - Provides methods for automation based registration of services. 
 
 
