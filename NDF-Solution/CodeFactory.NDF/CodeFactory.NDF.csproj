@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
@@ -11,12 +11,12 @@
     <Description>Common delivery framework patterns for .net based solutions.</Description>
     <RepositoryType>git</RepositoryType>
     <PackageIcon>NDF128.png</PackageIcon>
-    <Version>1.22325.1</Version>
+    <Version>1.22326.1</Version>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.22325.0.1</FileVersion>
+    <FileVersion>1.22326.0.1</FileVersion>
     <Copyright>Copyright (c) 2022 CodeFactory, LLC.</Copyright>
     <PackageTags>Patterns;Delivery;Net Core;</PackageTags>
-    <PackageReleaseNotes>Initial release of library.</PackageReleaseNotes>
+    <PackageReleaseNotes>Added UnhandledException and ValidationExceptions.</PackageReleaseNotes>
     <SignAssembly>False</SignAssembly>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>

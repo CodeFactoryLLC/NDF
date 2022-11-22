@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFactory.NDF", "CodeFactory.NDF\CodeFactory.NDF.csproj", "{89A7A3D1-92DE-4570-A7DD-AFB592F4EA8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFactory.NDF.SQL", "CodeFactory.NDF.SQL\CodeFactory.NDF.SQL.csproj", "{04689AD4-5FFD-41AF-90A7-109F11318A52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{89A7A3D1-92DE-4570-A7DD-AFB592F4EA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89A7A3D1-92DE-4570-A7DD-AFB592F4EA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89A7A3D1-92DE-4570-A7DD-AFB592F4EA8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04689AD4-5FFD-41AF-90A7-109F11318A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04689AD4-5FFD-41AF-90A7-109F11318A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04689AD4-5FFD-41AF-90A7-109F11318A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04689AD4-5FFD-41AF-90A7-109F11318A52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
