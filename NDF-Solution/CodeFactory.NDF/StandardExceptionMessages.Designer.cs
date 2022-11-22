@@ -39,7 +39,7 @@ namespace CodeFactory.NDF {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("NDF.StandardExceptionMessages", typeof(StandardExceptionMessages).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CodeFactory.NDF.StandardExceptionMessages", typeof(StandardExceptionMessages).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -84,6 +84,15 @@ namespace CodeFactory.NDF {
         public static string CommunicationException {
             get {
                 return ResourceManager.GetString("CommunicationException", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A timeout has occured while performing communications within the application..
+        /// </summary>
+        public static string CommunicationTimeoutException {
+            get {
+                return ResourceManager.GetString("CommunicationTimeoutException", resourceCulture);
             }
         }
         
@@ -178,7 +187,7 @@ namespace CodeFactory.NDF {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to A validation error has occurred in the application, required information is incorrect or missing..
+        ///   Looks up a localized string similar to A validation error has occurred, the data for &apos;{0}&apos; is missing or incomplete..
         /// </summary>
         public static string ValidationException {
             get {

@@ -126,6 +126,9 @@
   <data name="CommunicationException" xml:space="preserve">
     <value>A communication error has occured within the application.</value>
   </data>
+  <data name="CommunicationTimeoutException" xml:space="preserve">
+    <value>A timeout has occured while performing communications within the application.</value>
+  </data>
   <data name="ConfigurationException" xml:space="preserve">
     <value>Configuration information for the application could not be found or is invalid.</value>
   </data>
@@ -157,6 +160,6 @@
     <value>An internal application error has occurred. Please confirm the operation completed successfully.</value>
   </data>
   <data name="ValidationException" xml:space="preserve">
-    <value>A validation error has occurred in the application, required information is incorrect or missing.</value>
+    <value>A validation error has occurred, the data for '{0}' is missing or incomplete.</value>
   </data>
 </root>

@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Net Delivery Framework for SQL</Title>
+    <Version>1.22326.1</Version>
+    <Authors>CodeFactory, LLC.</Authors>
+    <Company>CodeFactory, LLC.</Company>
+    <Description>Common delivery framework patterns for .net based solutions. Additional support library for MS SQL server integration.</Description>
+    <Copyright>Copyright (c) 2022 CodeFactory, LLC.</Copyright>
+    <PackageIcon>NDF128.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/CodeFactoryLLC/NDF</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Patterns;Delivery;Net Core;SQL;</PackageTags>
+    <PackageReleaseNotes>Initial release of transformation of SQLExceptions to managed exceptions.</PackageReleaseNotes>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.22326.0.1</FileVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/CodeFactoryLLC/NDF</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\CodeFactory.NDF\NDF128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CodeFactory.NDF\CodeFactory.NDF.csproj" />
+  </ItemGroup>
+
+</Project>
