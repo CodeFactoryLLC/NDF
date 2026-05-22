@@ -1222,7 +1222,7 @@ namespace CodeFactory.NDF
         /// <param name="eventId">The event id to be assigned to the log message.</param>
         /// <param name="memberName">Auto filled in by the system.</param>
         /// <param name="lineNumber">Auto filled in by the system.</param>
-        public static void CriticalLog(this ILogger source, string message, EventId eventId, Exception exception, [CallerMemberName] string memberName = null, [CallerLineNumber] int lineNumber = 0)
+        public static void CriticalLog(this ILogger source, string message, Exception exception, EventId eventId, [CallerMemberName] string memberName = null, [CallerLineNumber] int lineNumber = 0)
         {
             if (source == null) return;
 

@@ -4,6 +4,7 @@
 //*****************************************************************************
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using System;
 
 namespace CodeFactory.NDF
 {
@@ -20,9 +21,12 @@ namespace CodeFactory.NDF
         /// <param name="configuration">The source configuration to provide for dependency injection. </param>
         public void Load(IServiceCollection serviceCollection, IConfiguration configuration)
         {
-                LoadLibraries(serviceCollection, configuration);
-                LoadManualRegistration(serviceCollection, configuration);
-                LoadRegistration(serviceCollection, configuration);
+            if(serviceCollection == null) throw new ArgumentNullException(nameof(serviceCollection));
+            if(configuration == null) throw new ArgumentNullException(nameof(configuration));
+
+            LoadLibraries(serviceCollection, configuration);
+            LoadManualRegistration(serviceCollection, configuration);
+            LoadRegistration(serviceCollection, configuration);
         }
 
         /// <summary>
@@ -30,14 +34,20 @@ namespace CodeFactory.NDF
         /// </summary>
         /// <param name="serviceCollection">The dependency injection provider to register services with.</param>
         /// <param name="configuration">The source configuration to provide for dependency injection.</param>
-        protected abstract void LoadLibraries(IServiceCollection serviceCollection, IConfiguration configuration);
+        protected virtual void LoadLibraries(IServiceCollection serviceCollection, IConfiguration configuration)
+        {
+            //Intentionally blank, this is for child libraries to override and load their own dependency injection.
+        }
 
         /// <summary>
         /// Loads dependency injections that are setup and configured manually.
         /// </summary>
         /// <param name="serviceCollection">The dependency injection provider to register services with.</param>
         /// <param name="configuration">The source configuration to provide for dependency injection.</param>
-        protected abstract void LoadManualRegistration(IServiceCollection serviceCollection, IConfiguration configuration);
+        protected virtual void LoadManualRegistration(IServiceCollection serviceCollection, IConfiguration configuration)
+        {
+            //Intentionally blank, this is for child libraries to override and load their own manual dependency injection.
+        }
 
         /// <summary>
         /// Loads dependency injection registrations.
