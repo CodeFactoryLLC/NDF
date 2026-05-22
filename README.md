@@ -1,93 +1,143 @@
-#CodeFactory.NDF.SQL# CodeFactory.NDF.SQL
-
-![NDF Logo](NDF128.png)
-
-**Net Delivery Framework (NDF) – SQL Support Library**  
-*by [CodeFactory, LLC](https://github.com/CodeFactoryLLC/NDF)*
-
-[![NuGet](https://img.shields.io/nuget/v/CodeFactory.NDF.SQL)](https://www.nuget.org/packages/CodeFactory.NDF.SQL)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Target Framework](https://img.shields.io/badge/.NET-10.0-purple)](https://dotnet.microsoft.com/)
+Here is a comprehensive summary of the **NDF (Net Delivery Framework)** solution:
 
 ---
 
-## Overview
+# Net Delivery Framework (NDF) — Solution Summary
 
-`CodeFactory.NDF.SQL` extends the [CodeFactory.NDF](https://www.nuget.org/packages/CodeFactory.NDF) core library with Microsoft SQL Server integration support. It provides structured, opinionated exception management that translates raw `SqlException` error numbers into strongly-typed NDF managed exceptions, keeping your application layer clean and free of SQL-specific error handling logic.
-
----
-
-## Features
-
-- **SQL Exception Translation** — Automatically maps well-known `SqlException` error numbers to the appropriate NDF managed exceptions.
-- **Strongly-Typed Exceptions** — Converts raw SQL errors into NDF exceptions such as `AuthenticationException`, `AuthorizationException`, `CommunicationException`, `CommunicationTimeoutException`, `ConfigurationException`, `DataValidationException`, `DuplicateException`, and `DataException`.
-- **Extension Method Design** — Clean and intuitive API via a single extension method on `SqlException`.
-- **Covers Common SQL Error Scenarios** — Handles connection failures, timeouts, authentication errors, permission violations, NULL constraint violations, data truncation, foreign key violations, deadlocks, duplicate key errors, and more.
+**Repository:** [https://github.com/CodeFactoryLLC/NDF](https://github.com/CodeFactoryLLC/NDF)
+**Author:** CodeFactory, LLC. | **License:** MIT | **Version:** 10.26141.1
 
 ---
 
-## Requirements
+## Solution Overview
 
-| Dependency | Version |
+The NDF solution provides reusable delivery framework patterns for .NET solutions. It is composed of two NuGet-published class library projects that implement consistent exception handling, structured logging, and dependency injection patterns.
+
+---
+
+## Projects
+
+### 1. `CodeFactory.NDF` — Core Library
+
+**NuGet:** `CodeFactory.NDF`
+**Target Frameworks:** `.NET Standard 2.1`, `.NET 10.0`
+
+The foundational library for the framework. All other NDF libraries depend on this package.
+
+#### Features
+
+##### Managed Exception Hierarchy
+A structured, application-safe exception system built on a common `ManagedException` base class. Exceptions surface user-friendly messages without leaking internal details.
+
+| Exception Class | Base Class | Purpose |
+|---|---|---|
+| `ManagedException` | `System.Exception` | Root base for all managed exceptions |
+| `ManagedExceptions` | `ManagedException` | Aggregates multiple exceptions into one |
+| `CommunicationException` | `ManagedException` | Communication failures between services |
+| `ConfigurationException` | `ManagedException` | Missing or invalid configuration |
+| `DataException` | `ManagedException` | Data operation errors |
+| `LogicException` | `ManagedException` | Application logic errors |
+| `SecurityException` | `ManagedException` | Security-related errors |
+| `UnhandledException` | `ManagedException` | Wraps unexpected exceptions safely |
+| `ValidationException` | `ManagedException` | Input data validation failures (+ `DataField` property) |
+| `AuthenticationException` | `SecurityException` | Authentication failures |
+| `AuthorizationException` | `SecurityException` | Authorization/access-control failures |
+| `DataValidationException` | `DataException` | Property-level data validation (+ `PropertyName` property) |
+| `DuplicateException` | `DataException` | Duplicate data detection |
+
+##### Structured Logging Extensions (`LoggingExtensions`)
+Extension methods on `ILogger` that automatically inject caller metadata (member name, line number) into log output via `[CallerMemberName]` and `[CallerLineNumber]`.
+
+| Method | Description |
 |---|---|
-| .NET | 10.0 |
-| [CodeFactory.NDF](https://www.nuget.org/packages/CodeFactory.NDF) | 10.x |
-| [Microsoft.Data.SqlClient](https://www.nuget.org/packages/Microsoft.Data.SqlClient) | 7.0.1+ |
+| `EnterLog` | Logs entry into a member at the specified log level |
+| `ExitLog` | Logs exit from a member at the specified log level |
 
----
+Compatible with structured log sinks such as Serilog and Application Insights.
 
-## Installation
+##### Dependency Injection Loader (`DependencyInjectionLoader`)
+An abstract base class for library-level DI registration. Supports a layered, composable loading pipeline:
 
-Install via the .NET CLI:
-
-
-
-
-````````
-### Exception Mapping
-
-The following SQL error numbers are handled and translated:
-
-| SQL Error # | Scenario | NDF Exception Raised |
-|-------------|----------|---------------------|
-| 18456       | Authentication failure      | `AuthenticationException` |
-| 18470       | Account disabled           | `AuthenticationException` |
-| 229         | Object permission denied    | `AuthorizationException` |
-| 230         | Column permission denied    | `AuthorizationException` |
-| 262         | CREATE permission denied    | `AuthorizationException` |
-| 10060       | Connection failure          | `CommunicationException` |
-| 53          | Network path not found      | `CommunicationException` |
-| 10054       | Connection reset by remote host | `CommunicationException` |
-| -2          | Query timeout               | `CommunicationTimeoutException` |
-| 4060        | Cannot open database        | `ConfigurationException` |
-| 515         | Cannot insert NULL          | `DataValidationException` |
-| 8152        | String/binary data truncation | `DataValidationException` |
-| 547         | Foreign key constraint violation | `ValidationException` |
-| 2601        | Duplicate entry (unique index) | `DuplicateException` |
-| 2627        | Unique key constraint violation | `DuplicateException` |
-| 1205        | Deadlock victim             | `DataException` |
-| *(all others)* | Unhandled SQL error      | `DataException` |
-
----
-
-## Related Packages
-
-| Package | Description |
+| Override Method | Purpose |
 |---|---|
-| [CodeFactory.NDF](https://www.nuget.org/packages/CodeFactory.NDF) | Core Net Delivery Framework — base exceptions, patterns, and DI support |
+| `LoadLibraries` | Load registrations from dependent child libraries |
+| `LoadManualRegistration` | Register services needing manual/conditional setup |
+| `LoadRegistration` | Primary service registrations for the library |
+
+#### Dependencies
+
+| Package | Version |
+|---|---|
+| `Microsoft.Extensions.Configuration.Abstractions` | 10.0.0 |
+| `Microsoft.Extensions.DependencyInjection.Abstractions` | 10.0.0 |
+| `Microsoft.Extensions.Logging.Abstractions` | 10.0.0 |
+| `System.Collections.Immutable` *(netstandard2.1 only)* | 10.0.0 |
 
 ---
 
-## License
+### 2. `CodeFactory.NDF.SQL` — SQL Support Library
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
-Copyright © 2026 CodeFactory, LLC.
+**NuGet:** `CodeFactory.NDF.SQL`
+**Target Framework:** `.NET 10.0` only
+
+A supplemental library providing structured MS SQL Server integration. Translates raw `SqlException` errors into the NDF managed exception hierarchy — eliminating boilerplate data-layer error handling.
+
+#### Features
+
+##### SQL Exception Management (`SqlExceptionManagement`)
+A static class with extension methods that map `SqlException` error numbers to the appropriate NDF managed exception.
+
+| Method | Description |
+|---|---|
+| `ThrowManagedException(this SqlException source)` | Evaluates the SQL error number and throws the corresponding NDF managed exception |
+
+##### SQL Error-to-Exception Mapping
+
+| SQL Error | Condition | NDF Exception |
+|---|---|---|
+| `18456`, `18470` | Auth failure / Account disabled | `AuthenticationException` |
+| `229`, `230`, `262` | Permission denied | `AuthorizationException` |
+| `10060`, `53`, `10054` | Connection/network failure | `CommunicationException` |
+| `-2` | Timeout | `CommunicationTimeoutException` |
+| `4060` | Cannot open database | `ConfigurationException` |
+| `2601`, `2627` | Duplicate / unique key violation | `DuplicateException` |
+| `515`, `8152` | NULL insert / data truncation | `DataValidationException` |
+| `547` | Foreign key constraint | `ValidationException` |
+| `1205` | Deadlock victim | `DataException` |
+| *(all others)* | Unknown SQL error | `DataException` |
+
+##### SQL Error Number Constants
+All known SQL error numbers are exposed as `public const int` fields (e.g., `ConnectionFailureNumber`, `TimeoutNumber`, `DeadlockNumber`) for use in custom switch statements or logging.
+
+#### Dependencies
+
+| Package | Version |
+|---|---|
+| `CodeFactory.NDF` | *(project reference)* |
+| `Microsoft.Data.SqlClient` | `7.0.1` |
+
+> ⚠️ `.NET Standard 2.1` support was removed in version `10.x`. Use an earlier version if Standard 2.1 is required.
 
 ---
 
-## Repository
+## Solution Structure
 
-Source code and issue tracking:  
-[https://github.com/CodeFactoryLLC/NDF](https://github.com/CodeFactoryLLC/NDF)
+```
+NDF-Solution/
+├── CodeFactory.NDF/            # Core framework library (netstandard2.1 + net10.0)
+│   ├── ManagedException.cs
+│   ├── LoggingExtensions.cs
+│   ├── DependencyInjectionLoader.cs
+│   └── StandardExceptionMessages.resx
+├── CodeFactory.NDF.SQL/        # SQL integration library (net10.0)
+│   └── SqlExceptionManagement.cs
+└── NDF-Solution.sln
+```
+
+---
+
+## API Documentation
+
+Full API docs are published at: [https://codefactoryllc.github.io/NDF](https://codefactoryllc.github.io/NDF)
 
 
