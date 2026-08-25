@@ -70,7 +70,7 @@ namespace CodeFactory.NDF.Aspnet.Tests
         }
 
         [Fact]
-        public void CreateManagedException_UnknownType_FallsBackToManagedException()
+        public void CreateManagedException_UnknownType_FallsBackToUnhandledException()
         {
             var problem = new ProblemDetails
             {
@@ -78,24 +78,64 @@ namespace CodeFactory.NDF.Aspnet.Tests
                 Detail = "fallback"
             };
 
-            var restored = ManagedExceptionProblem.CreateManagedException(problem);
+            var restored = Assert.IsType<UnhandledException>(ManagedExceptionProblem.CreateManagedException(problem));
+            var inner = Assert.IsType<Exception>(restored.InnerException);
 
-            Assert.IsType<ManagedException>(restored);
-            Assert.Equal("fallback", restored.Message);
+            Assert.Equal(typeof(Exception), inner.GetType());
+            Assert.Equal("fallback", inner.Message);
+            Assert.Equal(StandardExceptionMessages.UnhandledException, restored.Message);
         }
 
         [Fact]
-        public void CreateManagedException_MissingType_FallsBackToManagedException()
+        public void CreateManagedException_MissingType_FallsBackToUnhandledException()
         {
             var problem = new ProblemDetails
             {
                 Detail = "fallback"
             };
 
-            var restored = ManagedExceptionProblem.CreateManagedException(problem);
+            var restored = Assert.IsType<UnhandledException>(ManagedExceptionProblem.CreateManagedException(problem));
+            var inner = Assert.IsType<Exception>(restored.InnerException);
 
-            Assert.IsType<ManagedException>(restored);
-            Assert.Equal("fallback", restored.Message);
+            Assert.Equal(typeof(Exception), inner.GetType());
+            Assert.Equal("fallback", inner.Message);
+            Assert.Equal(StandardExceptionMessages.UnhandledException, restored.Message);
+        }
+
+        [Fact]
+        public void CreateManagedException_MissingTypeAndDetail_FallsBackToUnhandledException()
+        {
+            var problem = new ProblemDetails();
+
+            var restored = Assert.IsType<UnhandledException>(ManagedExceptionProblem.CreateManagedException(problem));
+            var inner = Assert.IsType<Exception>(restored.InnerException);
+
+            Assert.Equal(typeof(Exception), inner.GetType());
+            Assert.Equal(new Exception().Message, inner.Message);
+            Assert.Equal(StandardExceptionMessages.UnhandledException, restored.Message);
+        }
+
+        [Fact]
+        public void CreateManagedException_UnknownNestedChild_FallsBackToUnhandledException()
+        {
+            var child = new ProblemDetails
+            {
+                Type = "https://example.test/problems/NoSuchThing",
+                Detail = "nested"
+            };
+            var problem = new ProblemDetails
+            {
+                Type = ManagedExceptionProblem.TypeUriBase + nameof(ManagedExceptions)
+            };
+            problem.Extensions[ManagedExceptionProblem.ExceptionsExtensionKey] = new[] { child };
+
+            var restored = Assert.IsType<ManagedExceptions>(ManagedExceptionProblem.CreateManagedException(problem));
+            var unhandled = Assert.IsType<UnhandledException>(Assert.Single(restored.Exceptions));
+            var inner = Assert.IsType<Exception>(unhandled.InnerException);
+
+            Assert.Equal(typeof(Exception), inner.GetType());
+            Assert.Equal("nested", inner.Message);
+            Assert.Equal(StandardExceptionMessages.UnhandledException, unhandled.Message);
         }
 
         [Fact]

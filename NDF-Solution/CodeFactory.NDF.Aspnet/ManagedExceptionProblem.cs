@@ -252,9 +252,14 @@ namespace CodeFactory.NDF.Aspnet
         /// Recreates the managed exception represented by <paramref name="problemDetails"/>.
         /// Nested problem arrays under <c>exceptions</c> are converted back to <see cref="ManagedExceptions"/>.
         /// Inner exceptions are not restored.
+        /// When <see cref="ProblemDetails.Type"/> is missing or does not map to a known managed exception,
+        /// an <see cref="UnhandledException"/> is returned with a <see cref="Exception"/> inner exception whose message is <see cref="ProblemDetails.Detail"/>.
         /// </summary>
         /// <param name="problemDetails">The problem details document to convert.</param>
-        /// <returns>The managed exception identified by <see cref="ProblemDetails.Type"/>.</returns>
+        /// <returns>
+        /// The managed exception identified by <see cref="ProblemDetails.Type"/>,
+        /// or an <see cref="UnhandledException"/> when the type is missing or unmapped.
+        /// </returns>
         /// <exception cref="ArgumentNullException">Thrown when <paramref name="problemDetails"/> is null.</exception>
         public static ManagedException CreateManagedException(ProblemDetails problemDetails)
         {
@@ -268,7 +273,10 @@ namespace CodeFactory.NDF.Aspnet
         /// </summary>
         /// <param name="problemDetails">The problem details document to convert.</param>
         /// <param name="depth">Current nesting depth for <see cref="ManagedExceptions"/>.</param>
-        /// <returns>The managed exception identified by <see cref="ProblemDetails.Type"/>.</returns>
+        /// <returns>
+        /// The managed exception identified by <see cref="ProblemDetails.Type"/>,
+        /// or an <see cref="UnhandledException"/> when the type is missing or unmapped.
+        /// </returns>
         private static ManagedException CreateManagedException(ProblemDetails problemDetails, int depth)
         {
             var typeName = TryGetTypeName(problemDetails.Type);
@@ -285,7 +293,7 @@ namespace CodeFactory.NDF.Aspnet
                 }
             }
 
-            return CreateWithMessage(static message => new ManagedException(message), static () => new ManagedException(), problemDetails);
+            return CreateUnhandledFromUnknownProblem(problemDetails);
         }
 
         /// <summary>
@@ -350,6 +358,20 @@ namespace CodeFactory.NDF.Aspnet
 
             type = type.Trim().TrimEnd('/');
             return string.IsNullOrWhiteSpace(type) ? null : type;
+        }
+
+        /// <summary>
+        /// Creates an <see cref="UnhandledException"/> for a problem that does not map to a known managed exception.
+        /// The problem detail is placed on a <see cref="Exception"/> inner exception; the outer exception uses the default unhandled message.
+        /// </summary>
+        /// <param name="problem">The problem details document that could not be mapped.</param>
+        /// <returns>
+        /// An <see cref="UnhandledException"/> whose inner exception is a <see cref="Exception"/> with <see cref="ProblemDetails.Detail"/> as the message when present.
+        /// </returns>
+        private static UnhandledException CreateUnhandledFromUnknownProblem(ProblemDetails problem)
+        {
+            var inner = string.IsNullOrEmpty(problem.Detail) ? new Exception() : new Exception(problem.Detail);
+            return new UnhandledException(inner);
         }
 
         /// <summary>
